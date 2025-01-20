@@ -150,14 +150,74 @@ class CrawlerService {
               comments,
               views,
               likes
-            }
+            },
+            detailInfo: null,    // 将在后面填充
+            downloadLink: null    // 将在后面填充
           });
         });
 
         return results;
       });
 
+      console.log('爬取完成，共获取到 %d 个课程:', courses.length);
+
+      // 为每个课程获取详情和下载链接
+      for (let i = 0; i < courses.length; i++) {
+        const course = courses[i];
+        console.log(`\n正在获取第 ${i + 1}/${courses.length} 个课程的详细信息...`);
+        
+        try {
+          // 访问详情页
+          await page.goto(course.link, {
+            waitUntil: 'networkidle0',
+            timeout: 30000
+          });
+
+          // 获取详情内容
+          const detailInfo = await page.evaluate(() => {
+            const fontElement = document.querySelector('.wp-posts-content font');
+            return fontElement ? fontElement.outerHTML : null;
+          });
+
+          if (detailInfo) {
+            course.detailInfo = detailInfo;
+          }
+
+          // 获取下载链接
+          const downloadUrl = `https://vip.m987.cn/download?post=${course.pageId}`;
+          await page.goto(downloadUrl, {
+            waitUntil: 'networkidle0',
+            timeout: 30000
+          });
+
+          // 等待百度网盘按钮出现
+          await page.waitForSelector('a.but.b-theme.baidu[href*="pay-download"]', { timeout: 10000 });
+          
+          // 获取按钮的href属性
+          const payDownloadUrl = await page.$eval('a.but.b-theme.baidu[href*="pay-download"]', el => el.href);
+          
+          // 访问支付下载页面
+          const response = await page.goto(payDownloadUrl, {
+            waitUntil: 'networkidle0',
+            timeout: 30000
+          });
+
+          // 获取最终的URL
+          const finalUrl = page.url();
+          if (finalUrl.includes('pan.baidu.com/share/init')) {
+            course.downloadLink = finalUrl;
+          }
+
+        } catch (error) {
+          console.error(`获取课程 ${course.title} 的详细信息失败:`, error.message);
+        }
+
+        // 添加延迟，避免请求过快
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+
       return courses;
+
     } catch (error) {
       console.error('爬取课程列表失败:', error);
       throw error;
