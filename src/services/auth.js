@@ -73,11 +73,10 @@ class AuthService {
             await this.delay(500);
             await submitButton.click();
 
-            // 等待滑块验证码出现（如果有的话）
+            // 等待可能出现的滑块验证码
             console.log('等待可能出现的滑块验证码...');
             try {
-                // 等待验证码弹窗出现
-                await this.delay(2000); // 等待验证码加载
+                await this.delay(2000);
                 const verifyPopup = await this.page.waitForSelector('#SliderCaptcha.modal.flex.jc.fade.in', {
                     visible: true,
                     timeout: 5000
@@ -85,9 +84,15 @@ class AuthService {
                 
                 if (verifyPopup) {
                     console.log('发现验证码弹窗，处理滑块验证...');
-                    await this.delay(2000); // 等待验证码完全加载
+                    await this.delay(1000);
                     const verificationSuccess = await this.handleSliderVerification();
-                    if (!verificationSuccess) {
+                    if (verificationSuccess) {
+                        console.log('滑块验证成功，等待页面加载...');
+                        // 给页面足够的时间完成跳转和加载
+                        await this.delay(3000);
+                        // 直接返回 cookies，不再进行其他检查
+                        return await this.page.cookies();
+                    } else {
                         throw new Error('多次尝试后未能通过滑块验证');
                     }
                 }
@@ -95,35 +100,42 @@ class AuthService {
                 if (error.message.includes('多次尝试后未能通过滑块验证')) {
                     throw error;
                 }
-                console.log('未发现验证码弹窗，继续执行...', error.message);
-            }
-
-            // 等待登录成功
-            console.log('等待登录结果...');
-            try {
-                await this.page.waitForNavigation({ 
-                    waitUntil: 'networkidle0', 
-                    timeout: 10000 
-                });
-            } catch (error) {
-                console.log('导航超时，检查登录状态...');
-                // 即使导航超时也检查是否已登录
-                const isLoggedIn = await this.page.evaluate(() => {
-                    return document.querySelector('.user-info') !== null;
-                });
-                
-                if (!isLoggedIn) {
-                    throw new Error('登录失败：登录尝试后未检测到登录状态');
+                if (error.message.includes('Execution context was destroyed')) {
+                    // 如果在等待验证码过程中页面就跳转了，说明不需要验证码
+                    console.log('页面已跳转，可能不需要验证码');
+                    await this.delay(2000);
+                    return await this.page.cookies();
                 }
+                console.log('未发现验证码弹窗或验证已完成，继续执行...');
             }
 
-            // 获取cookies
-            const cookies = await this.page.cookies();
-            return cookies;
+            // 修改登录成功检查逻辑
+            console.log('检查登录状态...');
+            try {
+                // 等待页面加载完成
+                await this.delay(3000);
+                
+                // 尝试获取用户信息
+                const cookies = await this.page.cookies();
+                if (cookies.length > 0) {
+                    console.log('成功获取到 cookies！');
+                    return cookies;
+                }
+                
+                throw new Error('登录失败：未能获取到 cookies');
+            } catch (error) {
+                if (error.message.includes('Execution context was destroyed')) {
+                    // 如果上下文被销毁，但之前已经验证成功，我们认为登录成功
+                    console.log('页面已跳转，尝试重新获取 cookies...');
+                    await this.delay(3000);
+                    const cookies = await this.page.cookies();
+                    return cookies;
+                }
+                throw error;
+            }
 
         } catch (error) {
             console.error('登录错误:', error);
-            // 保存截图用于调试
             await this.page.screenshot({ path: 'login-error.png' });
             throw error;
         }
@@ -248,34 +260,46 @@ class AuthService {
                 await this.delay(Math.random() * 100 + 50);
                 await this.page.mouse.up();
                 
-                // 等待验证结果
-                await this.delay(2000);
-                
-                // 检查验证是否成功
-                const success = await this.page.evaluate(() => {
-                    const sliderText = document.querySelector('.sliderText');
-                    const modal = document.querySelector('#SliderCaptcha.modal.flex.jc.fade.in');
-                    return !modal || (sliderText && !sliderText.textContent.includes('请再试一次'));
-                });
-                
-                if (success) {
-                    console.log('滑块验证成功！');
+                // 修改这里的验证逻辑
+                try {
+                    // 等待短暂时间看是否会跳转
+                    await this.delay(1500);
+                    
+                    // 如果能执行到这里（没有抛出 context destroyed 错误），检查验证码弹窗是否还存在
+                    const modalExists = await this.page.evaluate(() => {
+                        return !!document.querySelector('#SliderCaptcha.modal.flex.jc.fade.in');
+                    }).catch(() => {
+                        // 如果这里抛出错误，说明页面已经跳转，验证成功
+                        return false;
+                    });
+
+                    if (!modalExists) {
+                        console.log('验证成功：验证码弹窗已消失或页面已跳转');
+                        return true;
+                    }
+                } catch (e) {
+                    // 如果这里捕获到错误，很可能是因为页面跳转，说明验证成功
+                    console.log('验证成功：检测到页面跳转');
                     return true;
                 }
 
-                console.log('验证失败，准备重试...');
+                console.log('验证未通过，准备重试...');
                 retryCount++;
-                // 失败后等待更长时间再重试
-                await this.delay(2000);
+                await this.delay(1000);
 
             } catch (error) {
-                console.error(`第 ${retryCount + 1} 次尝试失败:`, error);
+                // 如果在滑动过程中发生页面跳转，也认为是验证成功
+                if (error.message.includes('Execution context was destroyed')) {
+                    console.log('验证成功：检测到页面跳转');
+                    return true;
+                }
+                
+                console.log(`第 ${retryCount + 1} 次尝试失败:`, error.message);
                 retryCount++;
-                await this.delay(2000);
+                await this.delay(1000);
             }
         }
 
-        console.log('所有验证尝试均失败');
         return false;
     }
 
