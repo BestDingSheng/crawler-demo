@@ -1,0 +1,24 @@
+{
+  "name": "node-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler built with Node.js",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["crawler", "nodejs", "mysql"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "puppeteer-core": "^22.0.0",
+    "mysql2": "^3.6.5",
+    "sequelize": "^6.35.2",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
