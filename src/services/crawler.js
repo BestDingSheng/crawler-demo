@@ -201,16 +201,63 @@ class CrawlerService {
         throw new Error('未找到课程详情内容');
       }
 
+      // 获取下载链接
+      console.log('正在获取下载链接...');
+      const downloadLink = await this.getDownloadLink(pageId);
+
       console.log('\n课程详情:');
       console.log(detailInfo);
+      console.log('\n下载链接:');
+      console.log(downloadLink);
 
       return {
         pageId,
-        detailInfo
+        detailInfo,
+        downloadLink
       };
 
     } catch (error) {
       console.error('爬取课程详情失败:', error.message);
+      throw error;
+    }
+  }
+
+  async getDownloadLink(pageId) {
+    try {
+      const page = this.authService.page;
+      
+      // 访问下载页面
+      const downloadUrl = `https://vip.m987.cn/download?post=${pageId}`;
+      console.log(`访问下载页面: ${downloadUrl}`);
+      
+      await page.goto(downloadUrl, {
+        waitUntil: 'networkidle0',
+        timeout: 30000
+      });
+
+      // 等待百度网盘按钮出现
+      await page.waitForSelector('a.but.b-theme.baidu[href*="pay-download"]', { timeout: 10000 });
+      
+      // 获取按钮的href属性
+      const payDownloadUrl = await page.$eval('a.but.b-theme.baidu[href*="pay-download"]', el => el.href);
+      console.log('获取到支付下载链接:', payDownloadUrl);
+      
+      // 访问支付下载页面
+      const response = await page.goto(payDownloadUrl, {
+        waitUntil: 'networkidle0',
+        timeout: 30000
+      });
+
+      // 获取最终的URL（经过所有重定向后的URL）
+      const finalUrl = page.url();
+      if (!finalUrl.includes('pan.baidu.com/share/init')) {
+        throw new Error('未能获取到百度网盘链接');
+      }
+
+      return finalUrl;
+
+    } catch (error) {
+      console.error('获取下载链接失败:', error.message);
       throw error;
     }
   }
