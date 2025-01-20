@@ -164,6 +164,57 @@ class CrawlerService {
     }
   }
 
+  async crawlCourseDetail(pageId = 22973) {
+    try {
+      // 确保已登录
+      const isLoggedIn = await this.validateLogin();
+      if (!isLoggedIn) {
+        throw new Error('需要登录才能访问课程详情');
+      }
+
+      // 构建详情页URL
+      const detailUrl = `https://vip.m987.cn/${pageId}/.html`;
+      console.log(`\n开始爬取课程详情...`);
+      
+      // 访问详情页
+      await this.authService.page.goto(detailUrl, {
+        waitUntil: 'networkidle0',
+        timeout: 30000
+      });
+
+      // 获取课程标题
+      const title = await this.authService.page.$eval('.article-title', el => el.textContent.trim());
+      console.log(`课程标题: ${title}`);
+      console.log(`课程ID: ${pageId}`);
+      console.log(`正在访问课程详情页: ${detailUrl}`);
+
+      // 提取课程详情信息
+      const detailInfo = await this.authService.page.evaluate(() => {
+        const fontElement = document.querySelector('.wp-posts-content font');
+        if (!fontElement) return null;
+        
+        // 获取font标签的outerHTML
+        return fontElement.outerHTML;
+      });
+
+      if (!detailInfo) {
+        throw new Error('未找到课程详情内容');
+      }
+
+      console.log('\n课程详情:');
+      console.log(detailInfo);
+
+      return {
+        pageId,
+        detailInfo
+      };
+
+    } catch (error) {
+      console.error('爬取课程详情失败:', error.message);
+      throw error;
+    }
+  }
+
   async close() {
     await this.authService.close();
     this.isLoggedIn = false;

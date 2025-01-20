@@ -20,6 +20,10 @@ async function test() {
         console.log('爬取完成，共获取到 %d 个课程:', courses.length);
         console.log(JSON.stringify(courses, null, 2));
         
+        // 爬取第一个课程的详情
+        const firstCourse = courses[0];
+        await crawler.crawlCourseDetail(firstCourse.pageId);
+        
     } catch (error) {
         console.error('测试失败:', error);
     } finally {
