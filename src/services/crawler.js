@@ -1,5 +1,6 @@
 const AuthService = require('./auth');
 const cookieStore = require('../utils/cookie-store');
+const Course = require('../models/course');
 
 class CrawlerService {
   constructor() {
@@ -88,6 +89,28 @@ class CrawlerService {
       return true;
     } catch (error) {
       console.error('登录失败:', error);
+      throw error;
+    }
+  }
+
+  async saveCourseToDatabase(courseData) {
+    try {
+      // 尝试查找已存在的记录
+      const existingCourse = await Course.findOne({
+        where: { pageId: courseData.pageId }
+      });
+
+      if (existingCourse) {
+        // 如果课程已存在，直接跳过
+        console.log(`课程已存在，跳过: ${courseData.title}`);
+        return;
+      } else {
+        // 创建新记录
+        await Course.create(courseData);
+        console.log(`新增课程: ${courseData.title}`);
+      }
+    } catch (error) {
+      console.error(`保存课程失败: ${courseData.title}`, error);
       throw error;
     }
   }
@@ -200,13 +223,13 @@ class CrawlerService {
 
       console.log(`\n所有tab爬取完成，共获取到 ${allCourses.length} 个课程`);
 
-      // 为每个课程获取详情和下载链接
+      // 修改保存逻辑
       for (let i = 0; i < allCourses.length; i++) {
         const course = allCourses[i];
-        console.log(`\n正在获取第 ${i + 1}/${allCourses.length} 个课程的详细信息...`);
+        console.log(`\n正在处理第 ${i + 1}/${allCourses.length} 个课程...`);
         
         try {
-          // 访问详情页
+          // 获取详情和下载链接
           await page.goto(course.link, {
             waitUntil: 'networkidle0',
             timeout: 30000
@@ -236,7 +259,7 @@ class CrawlerService {
           const payDownloadUrl = await page.$eval('a.but.b-theme.baidu[href*="pay-download"]', el => el.href);
           
           // 访问支付下载页面
-          const response = await page.goto(payDownloadUrl, {
+          await page.goto(payDownloadUrl, {
             waitUntil: 'networkidle0',
             timeout: 30000
           });
@@ -247,8 +270,11 @@ class CrawlerService {
             course.downloadLink = finalUrl;
           }
 
+          // 保存到数据库
+          await this.saveCourseToDatabase(course);
+
         } catch (error) {
-          console.error(`获取课程 ${course.title} 的详细信息失败:`, error.message);
+          console.error(`处理课程 ${course.title} 失败:`, error.message);
         }
 
         // 添加延迟，避免请求过快

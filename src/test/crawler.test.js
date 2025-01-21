@@ -1,9 +1,14 @@
 const CrawlerService = require('../services/crawler');
 const storage = require('../utils/storage');
+const initDatabase = require('../models/init');
 
 async function test() {
-    const crawler = new CrawlerService();
     try {
+        // 初始化数据库
+        await initDatabase();
+        
+        const crawler = new CrawlerService();
+        
         // 初始化存储
         await storage.init();
         
@@ -38,7 +43,6 @@ async function test() {
             console.log('ID:', course.pageId);
             console.log('类型:', course.type);
             console.log('发布时间:', course.publishTime);
-            console.log('互动数据:', course.stats);
             console.log('详情内容长度:', course.detailInfo ? course.detailInfo.length : 0);
             console.log('下载链接:', course.downloadLink || '未获取');
         });
