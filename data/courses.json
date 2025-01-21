@@ -1,7 +1,919 @@
 {
-  "updateTime": "2025-01-20T16:05:05.442Z",
-  "total": 6,
+  "updateTime": "2025-01-21T02:36:12.325Z",
+  "total": 72,
   "courses": {
+    "22109": {
+      "type": "自学成才网",
+      "title": "峰哥·AI短视频热门涨粉变现课",
+      "pageId": 22109,
+      "link": "https://vip.m987.cn/22109/.html",
+      "desc": "课程目录： 01.Ai数字人背后的百亿商业变现逻辑.mp4 02.如何拍出高质量的以假乱真的数字人.mp4 03.如何拍摄高质量数字人教程.mp4 04.如何开通及使用数字人工具.mp4 05.如何制作百万爆款短视频实...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/103fca8690faa163f295b61d8ad4a20f.jpeg",
+      "publishTime": "2025-01-03 04:00:38",
+      "stats": {
+        "comments": 0,
+        "views": 121,
+        "likes": 70
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=_lMUndLU2FnA-21RYuGE7g&pwd=b5u6"
+    },
+    "22111": {
+      "type": "自学成才网",
+      "title": "AI小王子·ComfyUI AI系统课【共1.7TB】",
+      "pageId": 22111,
+      "link": "https://vip.m987.cn/22111/.html",
+      "desc": "课程目录： ├─01.ComfyUI先导课 │ 1 ComfyUI先导课 .mp4 │ 2 SD WebUI和SD ComfyUI的区别 .mp4 │ ├─02.第一章 ComfyUI前期设置部署​安装 │ 3 ComfyUI 本地部署（Windows Linux系统）.m...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/7ac936ccd223c568b8c9b34e8a9452cb.png",
+      "publishTime": "2025-01-03 04:03:26",
+      "stats": {
+        "comments": 0,
+        "views": 105,
+        "likes": 77
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=bZLhHIoqwRjoqMUop5wpfA&pwd=4huq"
+    },
+    "22265": {
+      "type": "自学成才网",
+      "title": "阿华·TikTok跨境小店运营全攻略",
+      "pageId": 22265,
+      "link": "https://vip.m987.cn/22265/.html",
+      "desc": "课程目录： ├─1.第一章.《准备入驻材料》开通TK跨境小店全流程操作（ 1课程 ） │ 01.入驻Tiktok小店全流程 .mp4 │ ├─2.第二章.《店铺设置基础篇》入驻成功后必须完成操作（ 4课程 ） │ 0...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/4dffd05f9b70af05ebd43854b6f0ceda.jpeg",
+      "publishTime": "2025-01-06 02:00:39",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 75
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=r4zOoFL2uLPE9VQRtNg63Q&pwd=3h68"
+    },
+    "22267": {
+      "type": "自学成才网",
+      "title": "直播战士老蔡·抖音直播103起号运营",
+      "pageId": 22267,
+      "link": "https://vip.m987.cn/22267/.html",
+      "desc": "课程目录： 01.103起号课程介绍.mp4 02.弄懂底层逻辑-读懂标签.mp4 03.弄懂底层逻辑-去中心化.mp4 04.搞懂流量来去-推流原理.mp4 05.搞懂流量来去-流量渠道分析.mp4 06.搞懂流量来去-流速的秘密...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/ca1c32197375d83af5b01915082eed45.jpeg",
+      "publishTime": "2025-01-06 02:03:24",
+      "stats": {
+        "comments": 0,
+        "views": 102,
+        "likes": 63
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=MvMIa87NOPjrrKDAok4pPA&pwd=bpxq"
+    },
+    "22321": {
+      "type": "自学成才网",
+      "title": "大川老师·营销号混剪带货，用营销号形式做混剪带货",
+      "pageId": 22321,
+      "link": "https://vip.m987.cn/22321/.html",
+      "desc": "课程目录： 1.什么是营销号混剪带货.mp4 2.常见的营销号内容结构.mp4 3.营销号的三种拉流方法.mp4 4.营销号选品定位优先级.mp4 5.两种封面摸版设计演示.mp4 6.豆包批量创作爆款文案.mp4",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/d8169987131d25a13a4090c1a52cf2c7.jpeg",
+      "publishTime": "2025-01-07 02:04:21",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 64
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=2FXMdhjDUOBeEoOIEbdRxg&pwd=zeju"
+    },
+    "22373": {
+      "type": "自学成才网",
+      "title": "阿菲老师·抖音短视频男装原创带货从0-1",
+      "pageId": 22373,
+      "link": "https://vip.m987.cn/22373/.html",
+      "desc": "课程目录： 01.抖音男装带货号怎么做.mp4 02.账号搭建和养号流程.mp4 03.如何找到合适的对标.mp4 04.新号如何起量涨粉.mp4 05.账号打标签逻辑和方法.mp4 06.找涨粉/产品混剪素材实操演示.mp4 07...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/6fe7140a4edfb25ecadf99c10752fa85.jpeg",
+      "publishTime": "2025-01-08 04:00:40",
+      "stats": {
+        "comments": 0,
+        "views": 109,
+        "likes": 58
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=QCFyVL6mpSj4sOp1pXlyNQ&pwd=8n7j"
+    },
+    "22375": {
+      "type": "自学成才网",
+      "title": "阿甘·亚马逊跨境电商选品案例(更新2025年)",
+      "pageId": 22375,
+      "link": "https://vip.m987.cn/22375/.html",
+      "desc": "课程目录： 一、售价1999美金，1000W双电机，有越野能力的电动滑板车E-Scooter.mp4 二、2024年身体健康类目高速成长的5个蓝海市场关键词.mp4 三、2024年电子游戏VideoGames高速增长的暴利产品需...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/266f5b8d1cc5eb48f4e6d7cd0cbc83fd.jpeg",
+      "publishTime": "2025-01-08 04:02:06",
+      "stats": {
+        "comments": 0,
+        "views": 109,
+        "likes": 69
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=KErsJ_3nCiGNqGLgcmlTKA&pwd=2z1u"
+    },
+    "22470": {
+      "type": "自学成才网",
+      "title": "盗坤·抖音小红书视频号短视频带货与直播变现(11-15期)",
+      "pageId": 22470,
+      "link": "https://vip.m987.cn/22470/.html",
+      "desc": "课程目录： ├─1.盗坤·抖音短视频带货（十期） │ 第一课抖音电商的基础架构 .mp4 │ 第七课如何制作短视频内容 .mp4 │ 第三课短视频带货的基础准备（一） .mp4 │ 第三课短视频带货的基础准...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/b43c59aaa8b090ad18c02b0069ea8a6f.jpeg",
+      "publishTime": "2025-01-10 04:00:39",
+      "stats": {
+        "comments": 0,
+        "views": 121,
+        "likes": 70
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=T-N_i2fDyv2mK393sTeMmw&pwd=sgbp"
+    },
+    "22540": {
+      "type": "自学成才网",
+      "title": "交个朋友·2024引爆蝴蝶号实操运营(共72节)",
+      "pageId": 22540,
+      "link": "https://vip.m987.cn/22540/.html",
+      "desc": "课程目录： 01.第一章基础篇_「模型」蝴蝶号五大营收模型.mp4 02.第一章基础篇_「注册」如何开通视频号小店.mp4 03.第一章基础篇_「报白」蝴蝶号橱窗报白需求与资质审核.mp4 04.第一章基础篇_操...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/a625a322c1f1267b6e4786375880866c.png",
+      "publishTime": "2025-01-11 04:09:39",
+      "stats": {
+        "comments": 0,
+        "views": 86,
+        "likes": 68
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=E1BaVn2VcJla0t_jCnJdLQ&pwd=tgtn"
+    },
+    "22605": {
+      "type": "自学成才网",
+      "title": "墨竹老师·《从0基础到AI高手》第3期",
+      "pageId": 22605,
+      "link": "https://vip.m987.cn/22605/.html",
+      "desc": "课程目录： ├─01.看透本质：快速上手AI │ 02、1、内容介绍.mp4 │ 03、2、AI到底是什么？ .mp4 │ 04、3、ChatGPT3.5与4.0区别 .mp4 │ 05、4、为什么学习AI？ .mp4 │ 06、5、AI能做什么？ ...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/9f2162d42a6e914dfb73077c105d117c.png",
+      "publishTime": "2025-01-12 14:00:38",
+      "stats": {
+        "comments": 0,
+        "views": 102,
+        "likes": 60
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=wicrhA3zQOxyyM8c0ldPtQ&pwd=44ya"
+    },
+    "22607": {
+      "type": "自学成才网",
+      "title": "伟哥·短视频带货拍摄实操课",
+      "pageId": 22607,
+      "link": "https://vip.m987.cn/22607/.html",
+      "desc": "课程目录： ├─01.零基础准备篇 │ 01.零基础准备.mp4 │ 02.拍摄手机支架选择.mp4 │ 03手机支架DIY改装.mp4 │ 04.认识灯光，帮你省下一大笔钱.mp4 │ 05.拍摄灯光的选择.mp4 │ ├─02.灯光...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/77d5b47086582b24f08fd0a5fd52dc2c.jpeg",
+      "publishTime": "2025-01-12 14:04:44",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 80
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=tsh6oKVvR6DiNkdSYiJVNg&pwd=vxx6"
+    },
+    "22649": {
+      "type": "福源论坛",
+      "title": "京东短视频带货，操作简单，可矩阵操作，动动手指上传视频，轻松日入1000+",
+      "pageId": 22649,
+      "link": "https://vip.m987.cn/22649/.html",
+      "desc": "手机电脑均可操作，无需剪辑，无需选品，团队全部包揽你只需要发布视频，轻松日入 1000+，这个项目也是我们内部是自己在做的一个暴利项目，今天免费给大家分享出来，最 新风口项目，京东短视频...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/c7b559b8a8369513dcd83c4e7d735c57.png",
+      "publishTime": "2025-01-13 20:00:25",
+      "stats": {
+        "comments": 0,
+        "views": 120,
+        "likes": 76
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=YTc5joeakYwdoPZrwIeoIw&pwd=a95i"
+    },
+    "22651": {
+      "type": "福源论坛",
+      "title": "抖音语音无人挂播，每天躺赚1000+，新老号0粉可播，简单好操作，不限流不违规",
+      "pageId": 22651,
+      "link": "https://vip.m987.cn/22651/.html",
+      "desc": "2025必做躺赚项目，抖音语音无人挂播。 我们通过在抖音语音直播间 弹 广告小卡片的方式，去做广告推广，赚取收益。操作极简，开播无需看管，可矩阵操作，日入1000-4000+，每日收益当天就可拿到...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/fbb53c6384fbc41f9be38784d22a6889.png",
+      "publishTime": "2025-01-13 20:05:19",
+      "stats": {
+        "comments": 0,
+        "views": 87,
+        "likes": 59
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=FrNdUNAG2PJDdZp2QXXjSw&pwd=dwsj"
+    },
+    "22653": {
+      "type": "福源论坛",
+      "title": "办公助力AI掘金，兼职全职天花板，0基础快速上手，单日收益300-500+",
+      "pageId": 22653,
+      "link": "https://vip.m987.cn/22653/.html",
+      "desc": "办公助力A1掘金这个项目就是我们通过AI工具帮客户代写，其实行业已经出现数年之久，市场需求十分庞大，像大小公司的演讲稿，大学生的论文，实习报告，入党申请，短视频文案，年会总结报告，公文...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/2e44c11b21d952ad998881a41119d3e5.png",
+      "publishTime": "2025-01-13 20:09:12",
+      "stats": {
+        "comments": 0,
+        "views": 95,
+        "likes": 77
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=76z_mlwdBMZtgB9xplE3HQ&pwd=fu74"
+    },
+    "22702": {
+      "type": "福源论坛",
+      "title": "AI制作微短剧实操教程，今年最大风口一个视频100W播放量，附详细实操+变现计划",
+      "pageId": 22702,
+      "link": "https://vip.m987.cn/22702/.html",
+      "desc": "AI制作微短剧实操教程，今年最大风口一个视频100W播放量，附详细实操+变现计划 今天分享一个热门短剧赛道的玩法：AI微短剧。利用AI可以低成本做出很多高质量的短剧视频，单条视频最高播放量达到...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/8793b25c1426bedde5de7fba044ff417.jpeg",
+      "publishTime": "2025-01-14 16:03:25",
+      "stats": {
+        "comments": 0,
+        "views": 103,
+        "likes": 73
+      },
+      "detailInfo": "<font size=\"4\"><font color=\"Red\">课程地址：</font></font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=Baegq7x0D2bXu3Y3YAuBcA&pwd=7dpw"
+    },
+    "22711": {
+      "type": "福源论坛",
+      "title": "全网独家首发 全国高铁火车折扣代订 新手当日变现 纯手机操作 日入1000+",
+      "pageId": 22711,
+      "link": "https://vip.m987.cn/22711/.html",
+      "desc": "生活中铁路出行是所有人首选交通方式，火车票高铁票的重要程度不言而喻，现在市场很大，做这个项目的人不多，项目很稳定，你可作为兼职来做，亦可作为全职来做，年前年后收益是这个项目最顶峰的...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/52b6b53ecce33e9d3daf3fb7afcbd2eb.png",
+      "publishTime": "2025-01-14 18:00:27",
+      "stats": {
+        "comments": 0,
+        "views": 125,
+        "likes": 58
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=udozf91FG8-DqLVJJ4gZSQ&pwd=itb7"
+    },
+    "22735": {
+      "type": "福源论坛",
+      "title": "ChatGPT全能实战班，安装注册到赚钱思路，单人顶整个团队的工作",
+      "pageId": 22735,
+      "link": "https://vip.m987.cn/22735/.html",
+      "desc": "课程目录： 1、用GPT带飞，一人顶一个团队 2、用GPT1天完成7天工作 3、1分钟得知最新行业趋势 课程内容： 1 ChatGPT安装与注册指南:先导课工具，详细讲解如何安装和注册ChatGPT.mp4 2 拓宽搞钱...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/55c9673b71366d218b5c99ea0a9e63b9.jpeg",
+      "publishTime": "2025-01-15 14:00:28",
+      "stats": {
+        "comments": 0,
+        "views": 94,
+        "likes": 71
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=4Piooi8pgKzYuaILGPtmvA&pwd=seia"
+    },
+    "22737": {
+      "type": "福源论坛",
+      "title": "纯AI生成美女跳舞视频，零成本零门槛实操教程，新手也能轻松学会直接拿去涨粉",
+      "pageId": 22737,
+      "link": "https://vip.m987.cn/22737/.html",
+      "desc": "纯AI生成美女跳舞视频，零成本零门槛实操教程，新手也能轻松学会直接拿去涨粉 其实从AI视频出现，就已经有人再搞AI美女视频了，不过之前的技术问题限制很多的画面扭曲、动作不完整问题不好解决...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/9392734e92c7f0d758dd53895dbb6e14.jpeg",
+      "publishTime": "2025-01-15 14:03:15",
+      "stats": {
+        "comments": 0,
+        "views": 112,
+        "likes": 70
+      },
+      "detailInfo": "<font color=\"Red\"><font size=\"4\">课程地址：</font></font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=IT1uOjcHDijR17XVDNuzpA&pwd=kg7n"
+    },
+    "22745": {
+      "type": "自学成才网",
+      "title": "KK老师·TikTok ads投流秘籍",
+      "pageId": 22745,
+      "link": "https://vip.m987.cn/22745/.html",
+      "desc": "课程目录： 先看这个1.mp4 再看这个2.mp4 剪辑去重.mp4 优化人群.mp4 广告户绑定.mp4 测试计划搭建.mp4 绑定店铺，强挂车.mp4 自动规则.mp4 整体投放思路.jpg ads计划搭建及AB测试.jpg ads投放...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/fdb5384f674462df8fd4b7a438fabaaa.jpeg",
+      "publishTime": "2025-01-15 14:17:43",
+      "stats": {
+        "comments": 0,
+        "views": 98,
+        "likes": 80
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=axqQS6SjVEFB9iGVE9i7lg&pwd=2t37"
+    },
+    "22747": {
+      "type": "自学成才网",
+      "title": "芒禄电商·视频号电商玩法流程(更新2025年1月)",
+      "pageId": 22747,
+      "link": "https://vip.m987.cn/22747/.html",
+      "desc": "课程目录： 01、1.直播前言.mp4 02、2.直播声音.mp4 03、3.画面.mp4 04、4.互动.mp4 05、5.逼单.mp4 06、6.互动.mp4 07、视频号素材如何获取.mp4 08、视频号素材如何去重.mp4 09、视频号三种选...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/3d877f45ed56cb0fbce9df2c5b68dc3b.jpeg",
+      "publishTime": "2025-01-15 14:22:27",
+      "stats": {
+        "comments": 0,
+        "views": 112,
+        "likes": 61
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=ACkNvQ9tRoB0Mw9jGsla2w&pwd=untd"
+    },
+    "22773": {
+      "type": "自学成才网",
+      "title": "老陶电商·拼多多+抖音小店无货源开店(更新25年1月)",
+      "pageId": 22773,
+      "link": "https://vip.m987.cn/22773/.html",
+      "desc": "课程目录： ├─01.《24年抖音运营必听的17节课》 │ 第10节-视觉优化的技巧 .mp4 │ 第11节-营销定价 .mp4 │ 第12节-多维度SKU布局 .mp4 │ 第13节-低价冲量玩法 .mp4 │ 第14节-达人精选玩法...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/75675d8bdbf36af2edc181e399bbd848.jpeg",
+      "publishTime": "2025-01-16 04:00:41",
+      "stats": {
+        "comments": 0,
+        "views": 110,
+        "likes": 71
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=8f81X6fnDYMF8-DJqXr0HA&pwd=nqrb"
+    },
+    "22791": {
+      "type": "福源论坛",
+      "title": "银发经济新年风口，儿女祝福视频爆火，一条作品上万播放，一定要抓住",
+      "pageId": 22791,
+      "link": "https://vip.m987.cn/22791/.html",
+      "desc": "银发经济新年风口，儿女祝福视频爆火，一条作品上万播放，一定要抓住 大家好，今天给大家带来的项目是儿女祝福视频，一定要抓住银发经济新年风口，最近这种视频在视频号又悄悄火起来了，就是这...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/074efbbf77ada9852b1a0bf23a9997a6.jpeg",
+      "publishTime": "2025-01-16 12:00:23",
+      "stats": {
+        "comments": 0,
+        "views": 94,
+        "likes": 78
+      },
+      "detailInfo": "<font color=\"Red\"><font size=\"4\">课程地址：</font></font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=pLDLu1toeSfyfF6sACawqw&pwd=m94s"
+    },
+    "22802": {
+      "type": "福源论坛",
+      "title": "视频号0-1实战流程，包括定位规划、运营算法，助力新手快速上手，打造爆款",
+      "pageId": 22802,
+      "link": "https://vip.m987.cn/22802/.html",
+      "desc": "课程目录 01、1.为什么做视频号一无.mp4 02、2.视频号适合什么人以及特点一无.mp4 03、3.视频号账号规划一无.mp4 04、4.视频号账号运营.mp4 05、5.视频号的算法及规则.mp4 06、6.视频号初期如何...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/80f1ea9fc978f712cf07701b1457b1c6.jpeg",
+      "publishTime": "2025-01-16 14:00:22",
+      "stats": {
+        "comments": 0,
+        "views": 90,
+        "likes": 74
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=wvKmZrvqVt6OsMt-gNa45g&pwd=iqm8"
+    },
+    "22804": {
+      "type": "福源论坛",
+      "title": "2024抖音同玩法，从起号到爆款开篇，关键动作，选题途径，万能文案模板",
+      "pageId": 22804,
+      "link": "https://vip.m987.cn/22804/.html",
+      "desc": "课程目录： 001.同城视频上热门的底层逻辑.mp4 002.起号前的关键动作.mp4 003.同城账号定位法则.mp4 004.拍摄剪辑技巧.mp4 005.三大内容策划之流量型内容.mp4 006.三大内容策划之干货型内容.mp4...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/a837a72654de2e882d089dca029b9a33.jpeg",
+      "publishTime": "2025-01-16 14:03:13",
+      "stats": {
+        "comments": 0,
+        "views": 101,
+        "likes": 83
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=WAmuYErotQof1OvhtB-VHw&pwd=25r1"
+    },
+    "22806": {
+      "type": "福源论坛",
+      "title": "微信问一问分成计划，新赛道不内卷，长期稳定 手机就能操作，单日收益几百+",
+      "pageId": 22806,
+      "link": "https://vip.m987.cn/22806/.html",
+      "desc": "微信“问一问”可以理解为微信版的知乎，用户可以在其中提问、回答问题，通过互动获取知识和信息的平台，创作者满足申请条件，即可申请开通分成计划审核通过后，就会有收益。因为平台鼓励创作者...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/fb18670eef3422d70a4cc9416fe635bc.jpeg",
+      "publishTime": "2025-01-16 14:06:38",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 57
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=cjhMSCRfL5W4SonJzb5D1A&pwd=q7k4"
+    },
+    "22837": {
+      "type": "福源论坛",
+      "title": "图文排版设计课程，从基础到实操，全面解析朋友圈美学营销技巧",
+      "pageId": 22837,
+      "link": "https://vip.m987.cn/22837/.html",
+      "desc": "课程内容： 001.课程前言及素材资源分享 002.设计的基本规则详解一 003.设计的基本规则详解二 004.色彩基础详解与配色思路 005.文字与字体用法思路详解 006.图片选择与使用方法详解 007.版面设...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/46fc235c20c56272c67ef24defd49b3b.jpeg",
+      "publishTime": "2025-01-17 14:00:18",
+      "stats": {
+        "comments": 0,
+        "views": 106,
+        "likes": 72
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=qWamlf5CqTcxapGD7wBONg&pwd=wj5m"
+    },
+    "22845": {
+      "type": "自学成才网",
+      "title": "哥飞·独立站运营从SEO到Adsense全方位攻略",
+      "pageId": 22845,
+      "link": "https://vip.m987.cn/22845/.html",
+      "desc": "课程目录： ├─哥飞所有文章 │ │ 202307108000字讲解人人都能学会的英文网站Adsense赚钱入门.html │ │ 202307108000字讲解人人都能学会的英文网站Adsense赚钱入门.pdf │ │ 2023071310种...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/33ccd0198a894b05700f821788eea988.jpeg",
+      "publishTime": "2025-01-17 14:12:54",
+      "stats": {
+        "comments": 0,
+        "views": 97,
+        "likes": 56
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=IMge2fdjXGBDIpCPW6-igA&pwd=a5dy"
+    },
+    "22847": {
+      "type": "自学成才网",
+      "title": "菲菲老师·小红书电商玩法",
+      "pageId": 22847,
+      "link": "https://vip.m987.cn/22847/.html",
+      "desc": "课程目录： ├─01.小红书电商掘金基础课 │ 1.1开店流程 .mp4 │ 1.2店铺基础设置 .mp4 │ 1.3手动上架商品 .mp4 │ 1.3自动批量上架商品 .mp4 │ 1.4网络设备新号老号 .mp4 │ 1.5账户装修3件...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/bac7e222836dc69543cd9bebbc6f90b0.png",
+      "publishTime": "2025-01-17 14:17:41",
+      "stats": {
+        "comments": 0,
+        "views": 111,
+        "likes": 74
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=_2gI280d8rgamP7mwZTY8w&pwd=u72s"
+    },
+    "22857": {
+      "type": "中创网",
+      "title": "微信流量主自动推广，轻松日入800+，简单易上手，做就有收益。",
+      "pageId": 22857,
+      "link": "https://vip.m987.cn/22857/.html",
+      "desc": "一部手机即可实现财富自由，每天抽出1个小时时间轻松保底日入800+，这个项目也是我们内部是自己在做的一个暴利项目，今天免费给大家分享出来，2025年最新升级流量主小程序玩法，操作简单容易上...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/dbecd7a974ad709e922e431e64528cde.png",
+      "publishTime": "2025-01-18 02:00:46",
+      "stats": {
+        "comments": 0,
+        "views": 109,
+        "likes": 76
+      },
+      "detailInfo": "<font size=\"4\">一部手机即可实现财富自由，每天抽出1个小时时间轻松保底日入800+，这个项目也是我们内部是自己在做的一个暴利项目，今天免费给大家分享出来，2025年最新升级流量主小程序玩法，操作简单容易上手，单日轻松800+，经常听我课程的小伙伴都知道我们团队做网创变现这块绝对是独一档的，我们团队分享的课程是非常非常详细的，课程全程都是干货，细节拉满，最关键的是目前市面上没有人免费教学，收费基本都是3000+，所以现在做的人并不是很多。与此同时我们还解决了流量主小程序的三大痛点，第一就是大家完全不用担心后期搭建问题，我们团队全部包揽后台搭建，另外持续免费更新，第二就是对新手小白特别友好，无需任何复杂操作，只需要挂起来就OK了，全部后端和推流都由我们来操作，第三就是解决了传统项目没有流量的问题，独家引流方式，短时间内就可以见到收益，按照我们团队测试的方法，正常隔天见收益，最迟两天也可以见到收益，趁现在知道的人还不是很多，小伙伴们赶快去实操!我也期待大家的好消息!<br> 课程目录<br> 01项目介绍<br> 02 项目优势+项目准备<br> 03 项目实操<br> 04 变现方式+注意事项<p></p>\n</font>",
+      "downloadLink": null
+    },
+    "22859": {
+      "type": "中创网",
+      "title": "网盘拉新项目：3月收益超16万，入门到精通教程",
+      "pageId": 22859,
+      "link": "https://vip.m987.cn/22859/.html",
+      "desc": "本课程将带你进入网盘拉新的世界，专注于如何通过社群营销和网盘项目赚取佣金，短短三个月，团队通过网盘拉新项目实现了16万+的总成交额。无论你是刚接触网盘拉新，还是已有一定基础的运营者，...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/1fca6ab422ee928ad77ba34bcd5cd043.jpeg",
+      "publishTime": "2025-01-18 04:00:42",
+      "stats": {
+        "comments": 0,
+        "views": 89,
+        "likes": 79
+      },
+      "detailInfo": "<font size=\"4\">本课程将带你进入网盘拉新的世界，专注于如何通过社群营销和网盘项目赚取佣金，短短三个月，团队通过网盘拉新项目实现了16万+的总成交额。无论你是刚接触网盘拉新，还是已有一定基础的运营者，这门课程都会为你提供实战操作的方法和思维方式。<p></p>\n<p> 课程大纲：</p>\n<p> 1. 网盘拉新项目概述<br> &nbsp; &nbsp;– 什么是网盘拉新？介绍网盘拉新项目的背景及发展趋势。<br> &nbsp; &nbsp;– 网盘拉新项目的盈利模式与市场前景。<br> &nbsp; &nbsp;– 为什么网盘拉新成为快速致富的方式？</p>\n<p> 2. 团队运营数据分析<br> &nbsp; &nbsp;– 总成交金额160,385.81元，订单量与成交单量的具体分析。<br> &nbsp; &nbsp;– 夸克网盘、UC网盘、迅雷网盘等不同平台的操作特点与策略。<br> &nbsp; &nbsp;– 数据背后的核心运营思路，如何最大化提升项目收益。</p>\n<p> 3. 网盘拉新项目的选品与渠道选择<br> &nbsp; &nbsp;– 如何选择适合自己的网盘拉新平台？<br> &nbsp; &nbsp;– 分析市场上最热门的网盘平台：夸克网盘、UC网盘、迅雷网盘等。<br> &nbsp; &nbsp;– 如何根据平台的特点调整策略，提升佣金收益？</p>\n<p> 4. 社群运营与圈友管理<br> &nbsp; &nbsp;– 如何快速建立自己的网盘拉新社群？<br> &nbsp; &nbsp;– 通过有效的社群管理，提升成员活跃度，促进拉新转化。<br> &nbsp; &nbsp;– 通过社群内互动与分享，提高圈友收益，实现互惠共赢。</p>\n<p> 5. 网盘拉新的实战案例分析<br> &nbsp; &nbsp;– 通过实际案例，展示如何在3个月内达到16万+的成交额。<br> &nbsp; &nbsp;– 如何通过一系列网盘拉新项目快速实现收益回报。<br> &nbsp; &nbsp;– 案例中的成功因素及失败教训，如何避免常见的运营误区。</p>\n<p> 6. 佣金优化与收益提升技巧<br> &nbsp; &nbsp;– 如何提高网盘拉新的转化率与成交单量？<br> &nbsp; &nbsp;– 佣金优化策略：如何最大化赚取平台佣金？<br> &nbsp; &nbsp;– 利用精准数据分析，调整运营策略，提升整体收益。</p>\n<p> 7. 快速起步，少走弯路<br> &nbsp; &nbsp;– 课程特别附赠的启动工具与资源：从零到一的快速入门指南。<br> &nbsp; &nbsp;– 网盘拉新项目的常见问题与解决方案，避免走弯路。</p>\n<p> 8. 课程总结与未来展望<br> &nbsp; &nbsp;– 如何继续在网盘拉新项目中保持稳定的收益增长。<br> &nbsp; &nbsp;– 市场趋势分析与未来网盘拉新项目的演变方向。<br> &nbsp; &nbsp;– 如何将网盘拉新项目推广到更广泛的社群和渠道中，进一步扩大收入。</p>\n<p> 适合人群：<br> – 想通过网盘拉新项目实现兼职或全职收益的人。<br> – 有一定社群运营基础，但希望更系统掌握网盘拉新技巧的人员。<br> – 对社群管理、佣金优化等方面有兴趣的朋友。</p>\n<p> 通过这门课程，你将掌握网盘拉新的核心方法与技巧，能够快速启动并持续扩展自己的网盘拉新项目，实现收入增长。</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=KrW2w6kfFiTw4fNsK46uJw&pwd=31ui"
+    },
+    "22861": {
+      "type": "中创网",
+      "title": "小红书虚拟资料引流，新手引流变现，老手精准引流，轻松实现日赚过千",
+      "pageId": 22861,
+      "link": "https://vip.m987.cn/22861/.html",
+      "desc": "想在小红书上赚取稳定收入？这门课程将教你如何通过发布虚拟资料引流，实现每天99+精准客户添加，让引流和变现两不误。无论你是新手还是老手，只要跟随课程操作，你就能轻松上手，每天都能有源...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/e8667581dda376936d3e88e1c6962323.jpeg",
+      "publishTime": "2025-01-18 04:03:23",
+      "stats": {
+        "comments": 0,
+        "views": 101,
+        "likes": 78
+      },
+      "detailInfo": "<font size=\"4\">想在小红书上赚取稳定收入？这门课程将教你如何通过发布虚拟资料引流，实现每天99+精准客户添加，让引流和变现两不误。无论你是新手还是老手，只要跟随课程操作，你就能轻松上手，每天都能有源源不断的收入。<p></p>\n<p> 课程大纲：</p>\n<p> 1. 什么是小红书虚拟资料引流？<br> &nbsp; &nbsp;– 了解小红书虚拟资料引流的基本概念及其运作方式。<br> &nbsp; &nbsp;– 如何通过发布有吸引力的资料笔记来吸引精准用户。<br> &nbsp; &nbsp;– 解析“加我免费送”的引流技巧，让你轻松获取高质量流量。</p>\n<p> 2. 如何在小红书引流赚钱？<br> &nbsp; &nbsp;– 新手入门：通过发布电子资料赚取纯利润，不囤货、不风险。<br> &nbsp; &nbsp;– 老手进阶：用资料引流精准客户，每天获得99+的微信添加量。<br> &nbsp; &nbsp;– 结合实际案例，展示如何通过这一玩法实现稳定的盈利。</p>\n<p> 3. 小红书的流量优势与引流策略<br> &nbsp; &nbsp;– 小红书的流量特点：持久的搜索流量，让你的一篇笔记可以持续获客半年以上。<br> &nbsp; &nbsp;– 如何选择资料内容和推广策略，使其更具吸引力。<br> &nbsp; &nbsp;– 通过图文创作，提高资料引流的转化率，实现精准匹配。</p>\n<p> 4. 从零到一的引流实战技巧<br> &nbsp; &nbsp;– 学习如何设计吸引人的资料，并有效推动用户进行互动。<br> &nbsp; &nbsp;– 引流的底层逻辑解析，如何理解并应用加我免费送的引流法则。<br> &nbsp; &nbsp;– 精准分析市场需求，选择有潜力的资料进行推广。</p>\n<p> 5. 课程内容与活动支持<br> &nbsp; &nbsp;– 如何通过打卡活动挑战，迅速上手小红书资料引流。<br> &nbsp; &nbsp;– 提供课程资源和社群答疑，确保学员能实时解决疑难问题。<br> &nbsp; &nbsp;– 通过详细教学，帮助学员彻底理解并掌握引流的底层逻辑，避免操作盲目性。</p>\n<p> 6. 专家分享与课程升级<br> &nbsp; &nbsp;– 特邀老师分享他在小红书、抖音等平台的引流实战经验。<br> &nbsp; &nbsp;– 老师拥有百万级粉丝运作经验，并帮助学员实现精准引流50w+。</p>\n<p> 7. 常见问题解答<br> &nbsp; &nbsp;– 需要准备多少个账号？如何使用多个账号进行操作？<br> &nbsp; &nbsp;– 手机操作的可行性，如何通过手机完成引流任务。<br> &nbsp; &nbsp;– 关于小红书账号实名、行业限制等常见问题的详细解答。</p>\n<p> 适合人群：<br> – 新手想通过小红书实现副业收入的朋友。<br> – 有现有项目但缺乏精准流量的运营者。<br> – 想学习小红书引流技巧，并快速实现盈利的创业者。</p>\n<p> 通过本课程，你将掌握小红书资料引流的核心技巧，从零开始积累流量，轻松实现月入2W+的收入。只需跟随老师的指导，你也能在小红书这片流量蓝海中实现稳定收益！</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=mH8a2ETHNlkWaq7QKUEfew&pwd=2tqh"
+    },
+    "22863": {
+      "type": "中创网",
+      "title": "公众号运营全攻略：从流量主到10w+爆款打造，领域选择/选题技巧/账号运营",
+      "pageId": 22863,
+      "link": "https://vip.m987.cn/22863/.html",
+      "desc": "随着公众号平台的不断发展，越来越多的人选择通过开通“流量主”来实现内容创作的变现。只要掌握流量主的变现逻辑与运营技巧，轻松实现稳定收入。一篇10万阅读量的爆款文章，收益就可达到200-20...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/86c77deee3c4888f8f3fb76a8baa5972.jpeg",
+      "publishTime": "2025-01-18 04:06:36",
+      "stats": {
+        "comments": 0,
+        "views": 93,
+        "likes": 68
+      },
+      "detailInfo": "<font size=\"4\">随着公众号平台的不断发展，越来越多的人选择通过开通“流量主”来实现内容创作的变现。只要掌握流量主的变现逻辑与运营技巧，轻松实现稳定收入。一篇10万阅读量的爆款文章，收益就可达到200-2000元！本课程将详细教你如何从0开始，打造自己的流量池，优化内容，提高收益。<p></p>\n<p> 课程大纲：</p>\n<p> 1. 公众号流量主及变现逻辑&nbsp;&nbsp;<br> &nbsp; &nbsp;– 讲解流量主的基本概念以及如何通过公众号变现。<br> &nbsp; &nbsp;– 介绍流量主的收益单价和不同阅读量的预期收入。<br> &nbsp; &nbsp;– 理解流量主如何根据公众号阅读量、点击率等数据进行收入分配。</p>\n<p> 2. 领域选择与选题技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;– 如何选择合适的领域，找到你的细分市场。<br> &nbsp; &nbsp;– 提供选题思路，帮助你找到适合你的创作方向。<br> &nbsp; &nbsp;– 讲解小众领域如何突破竞争，打造有影响力的公众号。</p>\n<p> 3. 小众领域爆文案例拆解&nbsp;&nbsp;<br> &nbsp; &nbsp;– 通过多个小众领域的成功案例，分析爆文的核心要素。<br> &nbsp; &nbsp;– 学习如何利用独特的视角和内容深度吸引用户。</p>\n<p> 4. 公众号运营技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;– 如何快速进入流量池：讲解快速获取推荐流量的方法，让你的公众号进入平台流量池，提升曝光率。<br> &nbsp; &nbsp;– 如何打造爆款文章：教你从选题、标题到内容布局，全面提升文章的阅读量。<br> &nbsp; &nbsp;– 如何提高收益单价：优化公众号内容，提高单篇文章的收益，提升流量主收入。</p>\n<p> 5. 详细课程内容：<br> &nbsp; &nbsp;– 第一课：关于公众号的基础知识问题汇总&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;适合新手了解公众号的基本概念和操作流程。<br> &nbsp; &nbsp;– 第二课：怎么快速让公众号进入流量池？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;教你快速突破公众号的成长初期，获得更多平台推荐流量。<br> &nbsp; &nbsp;– 第三课：文章不到1100字怎么完美插入广告？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;学习在短小文章中高效插入广告，提升收益。<br> &nbsp; &nbsp;– 第四课：保姆式分享起号心得&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;从零开始运营公众号的实用技巧和心得，手把手带你快速成长。<br> &nbsp; &nbsp;– 第五课：公众号如何出大爆款？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;探索打造爆款文章的要素，让你的文章轻松突破10万阅读。<br> &nbsp; &nbsp;– 第六课：当心！几个骚操作，可能会被踢出流量池&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;解析公众号运营中的常见误区，避免被平台踢出流量池。<br> &nbsp; &nbsp;– 第七课：公众号被踢出流量池了怎么办？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;教你如何修复账号问题，重新获得平台推荐。<br> &nbsp; &nbsp;– 第八课：公众号连续更新一个月，都没有进入流量池，怎么办？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;针对遇到流量瓶颈的账号，提供详细解决方案。<br> &nbsp; &nbsp;– 第九课：公众号要想多挣钱，必须这样做&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;分享提升收入的多种策略，让你的公众号赚得更多。<br> &nbsp; &nbsp;– 第十课：民生类文章如何写？&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;学习写作具有广泛受众的民生类文章，吸引更多阅读和互动。</p>\n<p> 6. 附加课程：<br> &nbsp; &nbsp;– 如何确定账号是否进入流量池&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;学习如何查看账号状态，判断是否获得平台流量支持。<br> &nbsp; &nbsp;– 一文多平台通吃，打通闭环，收益大幅增加！&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;教你如何将公众号内容在其他平台同步发布，实现更大流量和收益。<br> &nbsp; &nbsp;– 娱乐剧评、鸡汤文、法律文等各类内容创作技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;专门讲解如何在不同领域写作爆款文章，提升内容影响力。<br> &nbsp; &nbsp;– 百万爆文拆解：法律文写作技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;深度分析如何通过精确的写作技巧打造百万级别的爆文。<br> &nbsp; &nbsp;– 直播加餐课：如何通过个人IP打造长期稳定收入&nbsp;&nbsp;<br> &nbsp; &nbsp;&nbsp;&nbsp;学习如何通过打造个人IP，将公众号变现收入稳步增长。</p>\n<p> 适合人群：<br> – 想通过公众号实现稳定收入的新手内容创作者。<br> – 已经有一定粉丝基础，想要提升变现能力的运营者。<br> – 希望通过公众号变现赚取副业收入的创业者。</p>\n<p> 通过这门课程，你将不仅仅学到公众号的基础运营技巧，更能掌握变现的核心逻辑，迅速打造爆款文章，提升流量和收入！</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=ZYcR61GCQrqZ7cnQI5oUtg&pwd=nzzu"
+    },
+    "22881": {
+      "type": "福源论坛",
+      "title": "短视频带货拍摄实操课，零基础学拍摄入门到精通教学，独立完成拍摄带货全流程",
+      "pageId": 22881,
+      "link": "https://vip.m987.cn/22881/.html",
+      "desc": "零基础学拍摄入门到精通教学，主要内容包括：零基础设备道具篇、拍摄灯光及场景搭建、ProMovie实操、好物场景化拍摄实操、拍摄角度，技巧，运镜实操、手机调色剪辑实操、拍摄案例分解实操等。帮...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/f68413556a1780d95bf39b0b686f16f8.png",
+      "publishTime": "2025-01-18 14:00:27",
+      "stats": {
+        "comments": 0,
+        "views": 102,
+        "likes": 64
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=ItgGYx3disyypvhQtCUeyQ&pwd=5xpv"
+    },
+    "22883": {
+      "type": "中创网",
+      "title": "小红书PPT模板2.0项目，适合小白宝妈，无淡旺季，日入400+长期稳定变现",
+      "pageId": 22883,
+      "link": "https://vip.m987.cn/22883/.html",
+      "desc": "蓝海PPT模板变现特训营2.0！这个项目为想要通过PPT模板获得稳定收入的朋友提供了一个细水长流的赚钱机会，尤其适合小白、宝妈和副业创业者。通过小红书等平台引流，结合微信和店铺变现的模式，...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/0f0d18a066231324e383ac503e770a3a.jpeg",
+      "publishTime": "2025-01-18 16:00:37",
+      "stats": {
+        "comments": 0,
+        "views": 117,
+        "likes": 58
+      },
+      "detailInfo": "<font size=\"4\">蓝海PPT模板变现特训营2.0！这个项目为想要通过PPT模板获得稳定收入的朋友提供了一个细水长流的赚钱机会，尤其适合小白、宝妈和副业创业者。通过小红书等平台引流，结合微信和店铺变现的模式，你可以在这个蓝海赛道中长期稳定地获得收益。<p></p>\n<p> 课程大纲：</p>\n<p> 1. 项目介绍与赛道分析&nbsp;&nbsp;<br> &nbsp; &nbsp;– 了解PPT模板蓝海赛道的市场潜力，为什么这是一个低竞争、高需求的蓝海市场。<br> &nbsp; &nbsp;– 学习如何从0开始搭建自己的PPT模板业务，零基础也能快速入门。</p>\n<p> 2. 蓝海赛道的PPT模板选品技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;– 如何选择高需求且竞争少的行业性PPT模板，避免市场饱和的赛道。<br> &nbsp; &nbsp;– 学习选品的技巧，通过分析同行成功的案例，迅速找到适合自己操作的方向。</p>\n<p> 3. PPT模板制作与优化&nbsp;&nbsp;<br> &nbsp; &nbsp;– 教你如何使用现成模板，降低制作难度，提升工作效率。<br> &nbsp; &nbsp;– 掌握优质模板的制作技巧，即使不懂设计也能制作出吸引客户的PPT。</p>\n<p> 4. 内容发布与引流技巧&nbsp;&nbsp;<br> &nbsp; &nbsp;– 讲解如何在小红书等平台通过笔记引流，利用长尾搜索流量提高曝光。<br> &nbsp; &nbsp;– 学习发布技巧，如何通过精准的文案和SEO优化，让你的PPT模板被更多人看到。</p>\n<p> 5. 变现策略与多元化收入模式&nbsp;&nbsp;<br> &nbsp; &nbsp;– 分享如何通过微信私域和店铺端进行PPT模板的销售，如何从小红书流量中获得更高的转化率。<br> &nbsp; &nbsp;– 探讨代做PPT和其他附加服务如何提高客单价，让你在这个赛道上获得可观的利润。</p>\n<p> 6. 项目操作与执行计划&nbsp;&nbsp;<br> &nbsp; &nbsp;– 提供详细的执行流程，教你如何每天安排工作时间，通过铺设笔记实现持续变现。<br> &nbsp; &nbsp;– 学员将获得专属操作手册和指导，从选品、文案、发布到变现，每一步都确保执行到位。</p>\n<p> 7. 实操与问题解答&nbsp;&nbsp;<br> &nbsp; &nbsp;– 课程过程中将通过案例分析与互动讲解，解决学员在操作过程中遇到的实际问题。<br> &nbsp; &nbsp;– 一对一陪跑模式，确保每位学员都能独立操作并顺利盈利。</p>\n<p> 特训营亮点：<br> – 适合人群：小白、宝妈、副业族、创业者等，只要你有执行力，这个项目对你来说非常合适。<br> – 变现模式：长期稳定，采用小红书引流+微信/店铺变现的组合方式，避免了传统副业的淡旺季波动，全年都有稳定需求。<br> – 培训内容：包括项目介绍、账号注册、选品技巧、文案撰写、内容制作、发布与变现等全面内容，保证学员从入门到精通。</p>\n<p> 学员反馈：<br> 项目简单且实操性强，变现出单稳定，适合长期发展。<br> 吃长尾搜索流，铺完笔记后，变现非常稳。<br> 课程提供了所有模板和工具，操作简单，直接套用就行。</p>\n<p> 总结：<br> 蓝海PPT模板项目适合有执行力的学员，无需原创PPT，利用现有资源即可快速搭建并实现稳定变现。课程内容针对性强，从选品、制作到变现的每一步都有详细指导。只要你能坚持执行，项目将为你带来长期的副业收入。</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=uPA4e04k20ekaw_2BhsMtg&pwd=xbsr"
+    },
+    "22885": {
+      "type": "中创网",
+      "title": "视频号带货，纯自然流，起号简单，爆率高轻松日入2000+",
+      "pageId": 22885,
+      "link": "https://vip.m987.cn/22885/.html",
+      "desc": "视频号是微信里的短视频内容平台，她背靠着微信13个亿的用户，视频号和微信是连体婴，微信不倒，视频号就会一直在，所以视频号的活跃度只会越来越高，而抖音，快手，小红书这些平台并不是我们每...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/023ca95343b347e2a8e61713954e59f2.png",
+      "publishTime": "2025-01-18 16:03:23",
+      "stats": {
+        "comments": 0,
+        "views": 99,
+        "likes": 81
+      },
+      "detailInfo": "<font size=\"4\">视频号是微信里的短视频内容平台，她背靠着微信13个亿的用户，视频号和微信是连体婴，微信不倒，视频号就会一直在，所以视频号的活跃度只会越来越高，而抖音，快手，小红书这些平台并不是我们每个人并不是一定要打开的APP，可微信是我们每个人每天必须要打开的APP微信早已是人民生活中无可替代，它是全村人的希望，普通人轻创业的春天！<p></p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=cphNbu9wiPwHxgZ4Mz2wpQ&pwd=6ted"
+    },
+    "22887": {
+      "type": "福源论坛",
+      "title": "小红书流量新玩法，传播中国传统文化的同时，做老外的生意赚美金！",
+      "pageId": 22887,
+      "link": "https://vip.m987.cn/22887/.html",
+      "desc": "小红书流量新玩法，传播中国传统文化的同时，做老外的生意赚美金！ 通过AI技术，和老外的沟通，再无语言方面的障碍，也没有时间的限制 不要错过在小红书上这一波赚美金的机会 课程地址：",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/5377318347a9e646e6f92301814ff5f0.jpeg",
+      "publishTime": "2025-01-18 18:00:28",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 73
+      },
+      "detailInfo": "<font color=\"Red\"><font size=\"4\">课程地址：</font></font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=LLomfvgYWqTtjVXTGwlCCg&pwd=rr2q"
+    },
+    "22895": {
+      "type": "中创网",
+      "title": "小红书自动引流变现 单天单电脑收益3000+  小白可上手",
+      "pageId": 22895,
+      "link": "https://vip.m987.cn/22895/.html",
+      "desc": "小红书自动引流变现 单天单电脑收益3000+  小白可上手",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/94410bf7bf04b25873d8617a6eea64dc.png",
+      "publishTime": "2025-01-19 02:00:38",
+      "stats": {
+        "comments": 0,
+        "views": 105,
+        "likes": 56
+      },
+      "detailInfo": "<font size=\"4\">小红书自动引流变现 单天单电脑收益3000+&nbsp;&nbsp;小白可上手<br> <img decoding=\"async\" id=\"aimg_8033221\" src=\"/wp-content/uploads/replace/360ca7225596672d957e890a75aa75c2.png\" class=\"zoom\" width=\"294\" imgbox-index=\"1\"> <p></p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=3HfhB-Fs58YkTYb_lH2-3w&pwd=ou4d"
+    },
+    "22916": {
+      "type": "中创网",
+      "title": "淘宝无人直播带货全新技术8.0操作，不违规，不封号，当天开播见收益，…",
+      "pageId": 22916,
+      "link": "https://vip.m987.cn/22916/.html",
+      "desc": "淘宝平台也是刚放开了无人直播,红利和风口期稳定长久。淘宝的无人直播带货经过我和下面学员无数次的测试 最终得到出来了理想的结果，并且淘宝是一个纯粹的购物买东西的平台,凡是打开淘宝的99%都...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/a685970d93b723cb12ee517662a0b3d3.jpeg",
+      "publishTime": "2025-01-19 14:00:32",
+      "stats": {
+        "comments": 0,
+        "views": 97,
+        "likes": 75
+      },
+      "detailInfo": "<font size=\"4\">淘宝平台也是刚放开了无人直播,红利和风口期稳定长久。淘宝的无人直播带货经过我和下面学员无数次的测试<br> 最终得到出来了理想的结果，并且淘宝是一个纯粹的购物买东西的平台,凡是打开淘宝的99%都是冲着买东西来的,不<br> 像抖音快手这些短视频平台一样是平时刷视频然后中间去穿插带货的直播间，大部分人进直播间也只是看<br> 个热闹,所以说淘宝直播是个非常可观且周期性长的项目，就算你是一个互联网纯小白，只要看过教程，跟着操作，<br> 赚钱绝对没有问题<p></p>\n<p> 课程目录<br> 淘宝无人直播带货介绍<br> 淘宝无人直播带货准备<br> 淘宝无人直播带货实操<br> 淘宝无人直播带货注意事项及变现</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=ftBpRQ6-folFq2g2YL_wxw&pwd=sq66"
+    },
+    "22918": {
+      "type": "中创网",
+      "title": "直通车推广课程：包括直通车基础、推广技巧、数据分析、爆款打造等",
+      "pageId": 22918,
+      "link": "https://vip.m987.cn/22918/.html",
+      "desc": "课程内容： 1.1、什么是直通车?(1).mp4 2.2、通过5大板块构建你的直通车知识系统(1).mp4 3.3、什么是搜索推广?(1).mp4 4.4、什么是推荐推广?(1).mp4 5.5.快速学握直通车推广类型，1张结构图全搞...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/4c259f4531fb28204167c82fe998784f.jpeg",
+      "publishTime": "2025-01-19 14:04:19",
+      "stats": {
+        "comments": 0,
+        "views": 102,
+        "likes": 67
+      },
+      "detailInfo": "<font size=\"4\">课程内容：<p></p>\n<p> 1.1、什么是直通车?(1).mp4</p>\n<p> 2.2、通过5大板块构建你的直通车知识系统(1).mp4</p>\n<p> 3.3、什么是搜索推广?(1).mp4</p>\n<p> 4.4、什么是推荐推广?(1).mp4</p>\n<p> 5.5.快速学握直通车推广类型，1张结构图全搞定(1).mp4</p>\n<p> 搜索和推荐推广的本质区别是什么?(1).mp46.6.</p>\n<p> 7.7、数据报表怎么看?才能充分挖掘数据价值(1).mp4</p>\n<p> 8.8、各个推广计划的共性和区别是什么?提前做好这3个设置(1).mp4</p>\n<p> 9.9、新计划创建，遵从1个原则，巧妙避坑!减少预算浪费(1).mp4</p>\n<p> 10.10、直通车制胜法则:工作思维和方法提升(1).mp4</p>\n<p> 11.11、机密!直通车日常操作SOP首次公开(1).mp4</p>\n<p> 12.12、从这一步开始，让你拥有可迁移的直通车应用能力(1).mp4</p>\n<p> 13.1、解决3大运营思维难题，推广技能拔高N个档次!(1).mp4</p>\n<p> 14.2.“点-线-面-体”构建直通车核心理论知识(思路篇)(1).mp4</p>\n<p> 15.3.快速构建直通车核心理论框架?拥有跨行业的运营能力(方法)(1).mp4</p>\n<p> 16.4、怎样突破运营瓶颈?学以致用，创造新方法.mp4</p>\n<p> 17.5、流量的本质是什么?.mp4</p>\n<p> 18.6、买家价值是怎样分层的?.mp4</p>\n<p> 19.7、学握“出价-流量-质量”模型，轻松获取高质量买家 .mp4</p>\n<p> 20.8、巧用“店铺流量增长”模型，找准流量增长机会.mp4</p>\n<p> 21.9、流量怎样流动?抓住关键转化环节(流量思维).mp4</p>\n<p> 22.10、通过”漏斗模型“分析，提升询盘-订单转化率,mp4</p>\n<p> 23.11、构建直通车精准匹配模型，询盘更精准.mp4</p>\n<p> 24.12、牢记直通车5个效果判断指标，数据决策更准确,mp4</p>\n<p> 25.13、定向标签不为人知的秘密–流量大小.mp4</p>\n<p> 26.14、定向标签不为人知的秘密一标签交叉重合.mp4</p>\n<p> 27.15、必选8个高质量人群标签，锁定优质买家,mp4</p>\n<p> 28.16、2个原则选对地域标签，锁定目标国家市场,mp4</p>\n<p> 29.17、2个维度选对PC or APP端口，让流量更集中.mp4</p>\n<p> 30.18、选对场景标签，多维度触达高质量买家,mp4</p>\n<p> 31.19、选对组合标签，获取特定国家高质量买家.mp4</p>\n<p> 32.20、抢位助手什么时候用?持续获取询盘.mp4</p>\n<p> 33.21、智能创意怎样设置更合理?.mp4</p>\n<p> 多语言站点投放怎样选更有用?.mp43422</p>\n<p> 35.23、多地域投放怎样设置更精准?.mp4</p>\n<p> 36.24、别踩坑，地域标签和多地域投放是不同的流量逻辑.mp4</p>\n<p> 37.25、分时段投放要不要设置?.mp4</p>\n<p> 38.26、搜索和推荐渠道怎么选更准确?.mp4</p>\n<p> 39.27、手动出价还是智能出价?怎样选择更合理?.mp4</p>\n<p> 40.28、按这个标准选屏蔽词，一定能减少预算浪费!.mp4</p>\n<p> 41.29、提前避坑!自选关键词和搜索词使用误区!.mp4</p>\n<p> 42.30、学会数据报表对比分析，挖掘数据价值，精准决策.mp4</p>\n<p> 43.31、PC、APP、WAP搜素广告位、推荐广告位.mp4</p>\n<p> 44.32、牢记!搜索&amp;推荐推广的匹配机制是什么?.mp4</p>\n<p> 45.33、直通车的排名规则是什么?.mp4</p>\n<p> 46.34.直通车的扣费规则是什么?.mp4</p>\n<p> 47.35、什么是推广评分?如何提升推广评分?.mp4</p>\n<p> 48.36、定向标签的命中逻辑是什么?怎样扣费?.mp4</p>\n<p> 49.1、标题的底层逻辑:排序、权重、系统抓取.mp4</p>\n<p> 50.2、标题符合平台搜索规则的基本要求是什么?别踩这3个坑.mp4</p>\n<p> 51.3、标题的基本框架结构.mp4</p>\n<p> 52.4.标题和K1、K2、K3多少个字符更好?关键词怎样搭配流量更多?.mp4</p>\n<p> 53.5、3个标题案例分析和5个注意事项,mp4</p>\n<p> 54.6、爆款标题的3个标准框架，点破流量密码,mp4</p>\n<p> 55.7、4个步骠精细化组合标题,mp4</p>\n<p> 56.8、怎样写K1.K2.K3更容易获得流量?.mp4</p>\n<p> 57.9、RTS与定制产品标题有什么区别?.mp4</p>\n<p> 58.10、流量稳定的中性爆款标题怎么组合?让爆款流量持久稳定.mp4</p>\n<p> 59.11、借力!组一个超越同行爆款产品的好标题.mp4</p>\n<p> 60.12、蓝海流量的爆款标题怎么组合?短期快速打爆!.mp4</p>\n<p> 61.13、带型号的产品爆款标题怎么组合?.mp4</p>\n<p> 62.14、组一个目标国家偏好的爆款标题，锁定高质量买家.mp4</p>\n<p> 63.15、巧用“我的词库”组合爆款标题，全面覆盖流量.mp4</p>\n<p> 64.16、怎么把潜力产品标题优化成爆款标题?.mp4</p>\n<p> 65.17、怎样选择适合自己组标题的方法?.mp4</p>\n<p> 66.18、你一定要及时规避组标题的3个大坑!.mp4</p>\n<p> 67.19、组合标题的实战方法.mp4</p>\n<p> 68.1.直通车出价竞争逻辑是什么?.mp4</p>\n<p> 69.2、用1个实际出价公式，打开流量阀门.mp4</p>\n<p> 70.3、深度理解“关键词价格曲线模型”，让你出价更精准.mp4</p>\n<p> 71.4.快速引流怎样出价?.mp4</p>\n<p> 72.5.出价方法-:自定义出价法.mp4</p>\n<p> 73.6、出价方法二:行业均价出价法.mp4</p>\n<p> 74.7、出价方法三:2端出价法.mp4</p>\n<p> 76.9、第1种关键词出价方法:测试出价法.mp4</p>\n<p> 77.10、第2种关键词出价方法:抢前五,mp4</p>\n<p> 78.11、第3种关键词出价方法:产品出价法.mp4</p>\n<p> 80.13、怎样抢排名?低成本获取大流量.mp4</p>\n<p> 81.14.关键词推广计划的推荐渠道怎么出价?.mp4</p>\n<p> 82.15、定向标签溢价怎么出?2个原则,mp4</p>\n<p> 83.16、定向标签命中逻辑是什么?怎样扣?.mp4</p>\n<p> 84.17、出价合理的3个判断标准.mp4</p>\n<p> 85.1.直通车精准推广的4个思路框架，直接给你方向.mp4</p>\n<p> 86.2构建推广系统，底层逻辑轻松复制.mp4</p>\n<p> 87.3、构建店铺直通车流量增长模型，防止流量暴跌!.mp4</p>\n<p> 87.3、构建店铺直通车流量增长模型，防止流量暴跌!.mp4</p>\n<p> 88.4、产品成长必经这4个阶段，巧妙抓住流量增长机会.mp4</p>\n<p> 89.5、组合营销计划怎么选?保姆级教程，跟着操作争结果.mp4</p>\n<p> 90.6、5个直通车推广计划的底层逻辑及效果判断方法(新品、爆品、普通品、关键词推广、优品抢位).mp4</p>\n<p> 91.7、按照这5步实现精准推广，获取高质量询盘!(定向标签+多地域投放).mp4</p>\n<p> 92.8.快速引流:火箭式拉升全店流量.mp4</p>\n<p> 93.9、新品加速:让新品14天脱颖而出.mp4</p>\n<p> 94.10、普通品成长:低成本快速挖掘高潜力爆品.mp4</p>\n<p> 95.11、爆品助推:让爆品更爆，询盘翻倍 .mp4</p>\n<p> 96.12、关键词推广:锁定需求，获取高质量客户.mp4</p>\n<p> 97.13、优品抢位:好产品就让全世界高质量买家都看到.mp4</p>\n<p> 98.14、推荐渠道推广:让产品自动寻找高质量买家.mp4</p>\n<p> 99.15、顶展.mp4</p>\n<p> 100.16、问鼎.mp4</p>\n<p> 101.这个章节你能学到什么?.mp4</p>\n<p> 102.1、直通车数据分析4步走，拒绝瞎忙,mp4</p>\n<p> 103.2、用好“买家参谋” 数据分析，精准推广询盘转化率更高!.mp4</p>\n<p> 104.3、数据分析–选准高质量买家偏好关键词,mp4</p>\n<p> 105.4、数据分析–锁定优质目标国家,mp4</p>\n<p> 106.5、店铺数据VS行业数据，找到流量增长空间.mp4</p>\n<p> 107.6、怎样计算单个国家询盘转化率?(方法1.含公式).mp4</p>\n<p> 108.7、通过单品点击量预估询盘总量，提高询盘转化率.mp4</p>\n<p> 109.1、必学直通车优化的3个原则，少走弯路,mp4</p>\n<p> 110.2、怎样用好“数据报表”找出流量难题?.mp4</p>\n<p> 111.3、掌握“数据报告”对比计算方法，搭建分析系统-搜索渠道.mp4</p>\n<p> 112.4、掌握“数据报告”对比计算方法，搭建分析系统-推荐渠道 .mp4</p>\n<p> 113.5、别做无用功，先诊断好直通车4大问题，告别瞎操作!.mp4</p>\n<p> 114.6、解决直通车4大难题，让每一分钱都花在刀刃上!.mp4</p>\n<p> 115.7、直通车精细化诊断SOP(流程.mp4</p>\n<p> 116.8、实操:单计划单品分析思路，快速提升单品询盘转化率.mp4</p>\n<p> 117.9、高曝光怎么解决?.mp4</p>\n<p> 118.10、点击率低怎么提高?.mp4</p>\n<p> 119.11、曝光量少怎么提升?.mp4</p>\n<p> 120.12、如何实现首页双曝光?.mp4</p>\n<p> 121.13、直通车钱花不出去怎么调整?.mp4</p>\n<p> 122.14、关键词排名怎么提升?(产品排名),mp4</p>\n<p> 123.15、点击成本太高怎么合理降低?.mp4</p>\n<p> 124.16、询盘转化率低怎么提高?.mp4</p>\n<p> 125.17、询盘质量差怎么提高?.mp4</p>\n<p> 126.这个章节你能学到什么?.mp4</p>\n<p> 127.1、策略:一定要有爆款思维，构建爆款矩阵.mp4</p>\n<p> 128.2、什么样的产品是真爆品?5个标准.mp4</p>\n<p> 129.3.做好这3项工作，产品必爆!.mp4</p>\n<p> 130.4、如何差异化打造RTS爆品VS定制爆品?.mp4</p>\n<p> 131.5、5个维度拆解同行爆品,mp4</p>\n<p> 132.6、保姆级教程:单品单计划打造爆品.mp4</p>\n<p> 133.7、挖掘潜力品打造爆品(不再错过任何个成为爆品的机会).mp4</p>\n<p> 134.8、组合计划打造爆品(这个方法只有你会).mp4</p>\n<p> 135.9、模仿同行爆品打造(让同行花钱帮你选品).mp4</p>\n<p> 136.10、冷门工厂产品打造爆品(工厂型企业通用)).mp4</p>\n<p> 137.11、高效利用关键词表打造爆品.mp4</p>\n<p> 138.12、爆品打造要学会及时止损(运营思维陷阱).mp4</p>\n<p> 139.13、爆品询盘下降的6个核心因素及实战优化方法,mp4</p>\n<p> 140.1、怎样制定合理的广告投放方案?(年度).mp4</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=0AggRaDUoWvddO7m16mxRA&pwd=pk2x"
+    },
+    "22920": {
+      "type": "中创网",
+      "title": "淘宝天猫运营课程，覆盖基础到进阶，玩转运营玩法，提升流量",
+      "pageId": 22920,
+      "link": "https://vip.m987.cn/22920/.html",
+      "desc": "课程内容： 2025年1月新课 01-基础入门阶段 02.进阶运营优化阶段 05.运营玩法篇 06.各种疑难杂症 附送的资料 04.付费推广带动免费 03.流量提升阶段 实用操作工具.doc",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/95eea0930d124a8b632e172730f3b14c.jpeg",
+      "publishTime": "2025-01-19 14:08:08",
+      "stats": {
+        "comments": 0,
+        "views": 105,
+        "likes": 71
+      },
+      "detailInfo": "<font size=\"4\">课程内容：<p></p>\n<p> 2025年1月新课</p>\n<p> 01-基础入门阶段</p>\n<p> 02.进阶运营优化阶段</p>\n<p> 05.运营玩法篇</p>\n<p> 06.各种疑难杂症</p>\n<p> 附送的资料</p>\n<p> 04.付费推广带动免费</p>\n<p> 03.流量提升阶段</p>\n<p> 实用操作工具.doc</p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=iU1Ed_LyeWDX-xNGwasezQ&pwd=2qp6"
+    },
+    "22922": {
+      "type": "中创网",
+      "title": "视频号精选变现任务，游戏无人直播稳定150+",
+      "pageId": 22922,
+      "link": "https://vip.m987.cn/22922/.html",
+      "desc": "跳开各种分成计划，直接视频号官方活动，无需露脸沟通，动动手指在家搞米，玩游戏就有收益 视频号平台起步需要人来创造流量，官方扶持，没有粉丝要求，最晚一周见效，操作无脑",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/d3ac4884899cebbf71f4a9721a3facad.jpeg",
+      "publishTime": "2025-01-19 16:00:33",
+      "stats": {
+        "comments": 0,
+        "views": 105,
+        "likes": 56
+      },
+      "detailInfo": "<font size=\"4\">跳开各种分成计划，直接视频号官方活动，无需露脸沟通，动动手指在家搞米，玩游戏就有收益<br> 视频号平台起步需要人来创造流量，官方扶持，没有粉丝要求，最晚一周见效，操作无脑<p></p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=avbwSvrkHMTiyZngc71dQQ&pwd=nnep"
+    },
+    "22924": {
+      "type": "中创网",
+      "title": "25年全新快手万粉玩法，全程一部手机轻松搞定，一分钟两条作品，零成本…",
+      "pageId": 22924,
+      "link": "https://vip.m987.cn/22924/.html",
+      "desc": "目前呢快手账号在市面上是特别的抢手，而且很多人都在收购，价格都很不错，包括我这边也是高价回收，那么我们的这个方法适用于各大平台，不管是抖音，快手或者是小红书，微信视频号什么的，只要...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/93cb4e703044e688c328c7c3719265cc.jpeg",
+      "publishTime": "2025-01-19 16:03:04",
+      "stats": {
+        "comments": 0,
+        "views": 111,
+        "likes": 60
+      },
+      "detailInfo": "<font size=\"4\">目前呢快手账号在市面上是特别的抢手，而且很多人都在收购，价格都很不错，包括我这边也是高价回收，那么我们的这个方法适用于各大平台，不管是抖音，快手或者是小红书，微信视频号什么的，只要你想去涨粉都可以用这个方法去操做，操作特别简单，两分钟就可以剪一条作品，直接无脑复制就行，视频全程一键自动生成，只要你不傻就可以操作，做的好就能月入好几个，那么相信大家肯定有不少人自己做过账号，累死累活的不说，好不容易把视频录出来，还要剪辑，一整个流程下来，直接浪费了半天时间，而且粉丝根本不带涨的，那么你用了我的这个方法后，基本上都是一个星期就能涨到万粉，快一点就三天多时间，不需要你去自己拍摄，也不需要你浪费时间去剪辑，直接无脑循环复制就行，轻轻松松可以涨到万粉，到万粉后就可以去开通各种变现模式了，包括磁力万和，直接每天躺着分成即可，简直就是2025年小白创业的首选<p></p>\n</font>",
+      "downloadLink": "https://pan.baidu.com/share/init?surl=4FKGZLLy4--wXNeyG4CDrw&pwd=aztq"
+    },
+    "22928": {
+      "type": "冒泡网",
+      "title": "教辅项目实操手册，单日进账上千，可持续可放大",
+      "pageId": 22928,
+      "link": "https://vip.m987.cn/22928/.html",
+      "desc": "教辅项目实操手册，单日进账上千，可持续可放大 教辅项目，已经陆续有学员拿到结果了，这个项目是当下最值得大家去冲的细分赛道! 原因有三： 1、需求大，每个有孩子的家庭都需要; 2、离钱近，每...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/f421fe8c5b672f35a73388822cc7add7.jpeg",
+      "publishTime": "2025-01-19 18:03:52",
+      "stats": {
+        "comments": 0,
+        "views": 121,
+        "likes": 67
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=pUR4PHY-LPZ6KsAP9SfqzA&pwd=uxbu"
+    },
+    "22931": {
+      "type": "冒泡网",
+      "title": "游戏自动搬砖，轻松日入上千，0基础无脑操作【揭秘】",
+      "pageId": 22931,
+      "link": "https://vip.m987.cn/22931/.html",
+      "desc": "游戏自动搬砖，轻松日入上千，0基础无脑操作【揭秘】 给大家推荐一款可以自动打金币的搬砖项目，这款游戏推出有20年时间了，打金币项目很稳定。",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/04de2ba52dfb222bfbdd6790bee1f6b8.jpeg",
+      "publishTime": "2025-01-19 18:08:54",
+      "stats": {
+        "comments": 0,
+        "views": 86,
+        "likes": 59
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=NhuXHRIZ06FRAT2Iw3onyA&pwd=mcb2"
+    },
+    "22933": {
+      "type": "福源论坛",
+      "title": "小红书电商玩法：带货/选品/找素材/裂变/数据分析/供应商/发货/售后/开店思维等",
+      "pageId": 22933,
+      "link": "https://vip.m987.cn/22933/.html",
+      "desc": "主要内容包括：小红书电商基础课、小红书带货、选品训练、找素材、裂变复制、数据分析、供应商、发货、客服及售后问题、开店思维等。 课程目录： ├─01.小红书电商掘金基础课 │ 1.1开店流程 ....",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/99fa690ad722b012b527d19821936906.jpeg",
+      "publishTime": "2025-01-20 02:00:27",
+      "stats": {
+        "comments": 0,
+        "views": 89,
+        "likes": 68
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=IdUqt8rrN1xlFOxYibhBuA&pwd=q7uy"
+    },
+    "22935": {
+      "type": "福源论坛",
+      "title": "悟空评论截流玩法攻略，一个评论0.5.单号日产10可多号",
+      "pageId": 22935,
+      "link": "https://vip.m987.cn/22935/.html",
+      "desc": "悟空评论截流玩法攻略，一个评论0.5.单号日产10可多号 本期所分享的项目是在在小红书上找到优质的影视、短剧资源种草贴，去评论区里找想要知道怎么观看的用户的评论，回复该评论引导至悟空浏览...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/6b48392dfc182f35ddd80fd96b416d1c.jpeg",
+      "publishTime": "2025-01-20 02:03:16",
+      "stats": {
+        "comments": 0,
+        "views": 96,
+        "likes": 63
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=THXM2LYdta9C2M1ye1Uf5A&pwd=m7qk"
+    },
+    "22938": {
+      "type": "福源论坛",
+      "title": "视频号电商玩法(视频带货+直播带货)含视频号带货基础、直播带货实操流程分解等",
+      "pageId": 22938,
+      "link": "https://vip.m987.cn/22938/.html",
+      "desc": "课程目录： 01、1.直播前言.mp4 02、2.直播声音.mp4 03、3.画面.mp4 04、4.互动.mp4 05、5.逼单.mp4 06、6.互动.mp4 07、视频号素材如何获取.mp4 08、视频号素材如何去重.mp4 09、视频号三种选...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/b6d1d5bfb4af330317e1db8adc9a59dc.png",
+      "publishTime": "2025-01-20 02:07:44",
+      "stats": {
+        "comments": 0,
+        "views": 113,
+        "likes": 74
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=3yaBvKaR6wRzQjienl7sBQ&pwd=6c46"
+    },
+    "22940": {
+      "type": "福源论坛",
+      "title": "抖音最火的副业玩法拆解！即梦AI抖音副业操作全流程教学！",
+      "pageId": 22940,
+      "link": "https://vip.m987.cn/22940/.html",
+      "desc": "抖音即梦AI挂载项目是当前超火的零门槛副业新玩法！通过发布关联视频获取收益，1万播放量收益约100-500元，单条视频最高可达2万元。背靠抖音官方平台，结算周期7-14天，收益透明且稳定，适合新...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/1a9229e106c9b40e541c3f561d747d03.png",
+      "publishTime": "2025-01-20 02:11:55",
+      "stats": {
+        "comments": 0,
+        "views": 107,
+        "likes": 59
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=4EBGTUNOVhsbhArDEpox1w&pwd=gprh"
+    },
+    "22942": {
+      "type": "自学成才网",
+      "title": "书阳老师·短剧运营变现之路",
+      "pageId": 22942,
+      "link": "https://vip.m987.cn/22942/.html",
+      "desc": "课程目录： 01.第1节：短剧授权问题.mp4 02.第2节：挂链接+写标题.mp4 03.第3节：新手快手搭建短剧账号.mp4 04.第4节：如何下载素材-实操课.mp4 05.第5节：怎么剪出爆款短剧.mp4 06.第6节：内容...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/98037f1c94ba0a9084cdb63d7b568843.png",
+      "publishTime": "2025-01-20 02:18:34",
+      "stats": {
+        "comments": 0,
+        "views": 121,
+        "likes": 82
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=kGhp2n_KG57BmvsZn1cfIQ&pwd=apm3"
+    },
+    "22944": {
+      "type": "冒泡网",
+      "title": "2025AI卡通玩偶赛道，每天五分钟，日入好几张，全程AI操作，可矩阵操作放大收益",
+      "pageId": 22944,
+      "link": "https://vip.m987.cn/22944/.html",
+      "desc": "2025AI卡通玩偶赛道，每天五分钟，日入好几张，全程AI操作，可矩阵操作放大收益 项目介绍：今天给大家分享的项目是利用AI，制作卡通玩偶照片，然后制作出让图片动起来的治愈系视频，不仅能给人...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/0a6585eb9036a3a069102def545adb3d.jpeg",
+      "publishTime": "2025-01-20 10:00:06",
+      "stats": {
+        "comments": 0,
+        "views": 109,
+        "likes": 78
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=DJsC9H56aVioYjJ_s573Ug&pwd=sj93"
+    },
+    "22946": {
+      "type": "冒泡网",
+      "title": "京东短视频带货课，无需自己拍摄剪辑，保姆式教学，两天快速上手",
+      "pageId": 22946,
+      "link": "https://vip.m987.cn/22946/.html",
+      "desc": "京东短视频带货课，无需自己拍摄剪辑，保姆式教学，两天快速上手 运营内容 项目为好物推荐,每天上传视频 到京东发现频道,上传30-50个视频视频 来源于各大短视频平台优质内容 无需自己拍摄剪辑,...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/6c831fbba0ee29fcdb8aa59565908ff3.jpeg",
+      "publishTime": "2025-01-20 12:00:06",
+      "stats": {
+        "comments": 0,
+        "views": 98,
+        "likes": 76
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=g1zIocN6j-s5B7JvR8mMPg&pwd=uqq8"
+    },
+    "22948": {
+      "type": "冒泡网",
+      "title": "从零开始玩转大模型和智能体，​用35个视频从零开始普及大模型的知识，并教大家搭建自己的智能体",
+      "pageId": 22948,
+      "link": "https://vip.m987.cn/22948/.html",
+      "desc": "从零开始玩转大模型和智能体，​用35个视频从零开始普及大模型的知识，并教大家搭建自己的智能体 课程简介 我们是中国最早也是最成功的推出大模型应用的企业，不论是针对企业舆情应对的观舆卫士...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/20a6c55790217634bfb81f54535e6914.jpeg",
+      "publishTime": "2025-01-20 12:03:19",
+      "stats": {
+        "comments": 0,
+        "views": 83,
+        "likes": 65
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=oprYdHxrFYk8lSBGO4zDLQ&pwd=85vv"
+    },
+    "22950": {
+      "type": "冒泡网",
+      "title": "短剧变现玩法，长久稳定无脑，睡后收益，保姆级教学",
+      "pageId": 22950,
+      "link": "https://vip.m987.cn/22950/.html",
+      "desc": "短剧变现玩法，长久稳定无脑，睡后收益，保姆级教学 项目介绍： 现在短剧特别火无疑是现在热门的一个赛道，而想通过短剧学会快速变现，短剧收益多种变现，短剧拉新，星图，都可做变现，课程内容...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/7e3c0957fc66c4cf5279b733ccc2969d.jpeg",
+      "publishTime": "2025-01-20 12:07:11",
+      "stats": {
+        "comments": 0,
+        "views": 120,
+        "likes": 72
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=FxL9yG9P14U0KOoTK0wqxg&pwd=6jnq"
+    },
+    "22952": {
+      "type": "冒泡网",
+      "title": "2025汽水音乐挂JI项目，独家最新技术，项目红利期稳定月入6000+",
+      "pageId": 22952,
+      "link": "https://vip.m987.cn/22952/.html",
+      "desc": "2025汽水音乐挂JI项目，独家最新技术，项目红利期稳定月入6000+ 汽水音乐是抖音旗下新推出的一款听歌的APP，抖音现在基本属于大众APP了，新的平台肯定需要大量的创作者来生产内容，所以平台推出...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/02ac153526d3817d22d5a1f851d83ef5.jpeg",
+      "publishTime": "2025-01-20 12:11:16",
+      "stats": {
+        "comments": 0,
+        "views": 114,
+        "likes": 64
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=RqlzcNnUZkUAl4QqiKccpw&pwd=er8v"
+    },
+    "22954": {
+      "type": "冒泡网",
+      "title": "淘宝开单秘籍PRO，量身定制淘天实战陪跑计划，告别做店迷茫、快速突破运营瓶颈期",
+      "pageId": 22954,
+      "link": "https://vip.m987.cn/22954/.html",
+      "desc": "淘宝开单秘籍PRO，量身定制淘天实战陪跑计划，告别做店迷茫、快速突破运营瓶颈期 淘宝商家几大痛点 想靠淘宝副业赚点小钱，但不知道卖什么 模仿别人卖火爆的产品，我却卖不出去? 转行(兼/全职)...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/bd574ece4fb8ba79e6958ac9d6d1c438.jpeg",
+      "publishTime": "2025-01-20 12:15:09",
+      "stats": {
+        "comments": 0,
+        "views": 94,
+        "likes": 65
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=PAYwwGuMngO1nHs4jo0GiQ&pwd=ic5q"
+    },
+    "22956": {
+      "type": "冒泡网",
+      "title": "短剧运营变现之路，从基础的短剧授权问题，到挂链接、写标题技巧，全方位为你拆解短剧运营要点",
+      "pageId": 22956,
+      "link": "https://vip.m987.cn/22956/.html",
+      "desc": "短剧运营变现之路，从基础的短剧授权问题，到挂链接、写标题技巧，全方位为你拆解短剧运营要点 课程介绍： 从基础的短剧授权问题，到挂链接、写标题技巧，再到账号搭建、素材下载与剪辑实操，全...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/770df1fe05f08dddb4ab7e5b37cd6e88.jpeg",
+      "publishTime": "2025-01-20 12:18:47",
+      "stats": {
+        "comments": 0,
+        "views": 109,
+        "likes": 76
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=rYKw7Jg-h6VlOlWlL6FFXQ&pwd=yp8y"
+    },
+    "22958": {
+      "type": "冒泡网",
+      "title": "AI闪电做外贸训练营(更新25年1月)，从0到3外贸万人实战课",
+      "pageId": 22958,
+      "link": "https://vip.m987.cn/22958/.html",
+      "desc": "AI闪电做外贸训练营(更新25年1月)，从0到3外贸万人实战课 帮助小白能自己快速完成独立站建站，每天写出100+本土化开发信，10分钟能找到100个目标客户，效率提升20倍，10分钟就设计出catalog，lo...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/35d6eebd57e03dd3cf91ba0aa5201827.jpeg",
+      "publishTime": "2025-01-20 12:21:42",
+      "stats": {
+        "comments": 0,
+        "views": 99,
+        "likes": 65
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=MnQe-bSYzujbQJPcYLgvQA&pwd=f2d1"
+    },
     "22960": {
       "type": "中创网",
       "title": "抖音手游全新玩法，一单50，小白一部手机日入3000+",
@@ -82,6 +994,22 @@
       "detailInfo": "<font size=\"4\">课程目录：<p></p>\n<p> 1快手无人账号实名、开通直播带货权限及开通带货达人身份.mp4</p>\n<p> 2 快手无人直播选品思路和原则.mp4</p>\n<p> 3 快手无人直播加品逻辑和原则.mp4</p>\n<p> 4 快手无人直播素材录制教程.mp4</p>\n<p> 5 快手无人直播OBS直播搭建流程.mp4</p>\n<p> 6 快手无人直播OBS+直播伴侣开播.mp4</p>\n<p> 7 快手无人直播伴侣开播设置+标题关键词设置.mp4</p>\n</font>",
       "downloadLink": "https://pan.baidu.com/share/init?surl=ARQQIzAz5JtR8ijB16NCag&pwd=gqdw"
     },
+    "22971": {
+      "type": "冒泡网",
+      "title": "小红书评论区留言，1元条，没有要求，没有上限",
+      "pageId": 22971,
+      "link": "https://vip.m987.cn/22971/.html",
+      "desc": "小红书评论区留言，1元条，没有要求，没有上限 这个标题你没看错就是评论就有收益，而且是去小红书评论，一条评论1块钱。 也不是光明正大的引流，就是通过一个简单的一句话。 是哪个平台这么聪...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/9611341e5964c5260555afdbd9fb00b3.jpeg",
+      "publishTime": "2025-01-20 18:00:03",
+      "stats": {
+        "comments": 0,
+        "views": 110,
+        "likes": 75
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=eNelVJu1i42JGycY41XtfA&pwd=fvqd"
+    },
     "22973": {
       "type": "中创网",
       "title": "抖音养号变现，小白轻松上手，素材我们提供，你只需一键式发送即可",
@@ -97,6 +1025,134 @@
       },
       "detailInfo": "<font size=\"4\">项目介绍：公司提供视频素材，你按照要求发布即可，小白轻松玩转，快至1-3天到手80-270收益，零风险 –我们是做真人真粉账号的，公司回收账号会换绑手机号，你们用的手机号可以再次循环注册新抖音号涨粉，<br> 千粉价值在80-150元(最高300)，<br> 万粉价值在270-700元(最高1000)，<br> 十万粉现价值在2500-3000元(最高3500)，具体看帐号<p></p>\n</font>",
       "downloadLink": "https://pan.baidu.com/share/init?surl=86SpAGyG9fzfEjAYmL0eMg&pwd=esg8"
+    },
+    "22975": {
+      "type": "冒泡网",
+      "title": "黄岛主副业分享会1期：3天3个副业玩法，速度上车",
+      "pageId": 22975,
+      "link": "https://vip.m987.cn/22975/.html",
+      "desc": "黄岛主副业分享会1期：3天3个副业玩法，速度上车 时隔多年，黄岛主线上分享会终于再次开放!也感谢粉丝们的支持! 上次分享会是以74期小红书引流分享课为终点，并在好评连连中结束!那么这次我决定...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/20499f6c9fd332cec97a47d63cab3662.jpeg",
+      "publishTime": "2025-01-20 22:00:03",
+      "stats": {
+        "comments": 0,
+        "views": 87,
+        "likes": 64
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=qAQ75ib0Sbn6y0UGQus0WA&pwd=2juh"
+    },
+    "22977": {
+      "type": "自学成才网",
+      "title": "郑十兄·AI实操训练营二期",
+      "pageId": 22977,
+      "link": "https://vip.m987.cn/22977/.html",
+      "desc": "课程目录： 第一天：AI学习方法及GPT使用【时长：2小时16分】.mp4 第二天：MJ创作思维（一）【时长：2小时7分】.mp4 第三天：MJ的创作思维（二）【时长：2小时16分】.mp4 第四天：SD创作思维（...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/1e6185741c8bd0eb8a186aba007e816a.jpeg",
+      "publishTime": "2025-01-21 02:00:37",
+      "stats": {
+        "comments": 0,
+        "views": 92,
+        "likes": 63
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=P2Mlpg6LV6dp6F6IMUxXTw&pwd=qhxs"
+    },
+    "22979": {
+      "type": "冒泡网",
+      "title": "AI实操训练营二期，课程源于实践归于实践，可操作可复制可落地",
+      "pageId": 22979,
+      "link": "https://vip.m987.cn/22979/.html",
+      "desc": "AI实操训练营二期，课程源于实践归于实践，可操作可复制可落地 课程源于实践且可操作、可复制、可落地。五天课程干货满满，精心编排的课程内容，搭配详细的视频讲解，让你轻松掌握AI实操技能，...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/33d66c7d4286e4a686d35086f48d198c.jpeg",
+      "publishTime": "2025-01-21 06:00:04",
+      "stats": {
+        "comments": 0,
+        "views": 105,
+        "likes": 59
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=mca4YG9doJWFz4YOqSEyZw&pwd=mwbu"
+    },
+    "22981": {
+      "type": "冒泡网",
+      "title": "AI起号美女骑电车视频，日精准引流100+，轻松变现1W+",
+      "pageId": 22981,
+      "link": "https://vip.m987.cn/22981/.html",
+      "desc": "AI起号美女骑电车视频，日精准引流100+，轻松变现1W+ 项目介绍： AI美女骑电车起号上粉特别快，不容错过! 年轻人也喜欢看 年轻人意味着什么? 他们代表着无限的活力、创新精神和强大的消费能力。...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/629a5fcb8e282fb2e4ef3dc175577f32.jpeg",
+      "publishTime": "2025-01-21 06:03:09",
+      "stats": {
+        "comments": 0,
+        "views": 104,
+        "likes": 73
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=asCaIaSaNoZHCbpIII9s3A&pwd=eafj"
+    },
+    "22983": {
+      "type": "冒泡网",
+      "title": "快手口播无人数字人带货，快手直播带货仍然大有可为!",
+      "pageId": 22983,
+      "link": "https://vip.m987.cn/22983/.html",
+      "desc": "快手口播无人数字人带货，快手直播带货仍然大有可为! 今年初开始，我一直在做视频号的口播带货，正是有了这次积累才有我现在的成绩，没有一步是白走的，所有的积累都会在某个时间，给你带来意想...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/a120c3e9e8f43467b0c883eff2873328.jpeg",
+      "publishTime": "2025-01-21 10:00:04",
+      "stats": {
+        "comments": 0,
+        "views": 82,
+        "likes": 66
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=5lVQB7BOGlb4vOexxr9lLg&pwd=83pz"
+    },
+    "22986": {
+      "type": "冒泡网",
+      "title": "顶流女性IP实战班，流量上亿情绪引爆法，深度打磨顶流女性IP硬核基本功",
+      "pageId": 22986,
+      "link": "https://vip.m987.cn/22986/.html",
+      "desc": "顶流女性IP实战班，流量上亿情绪引爆法，深度打磨顶流女性IP硬核基本功 课程内容： 1 学前必读:课程介绍~団队背景~适合谁学?ev(1).mp4 2 定位(上)_ev(1).mp4 3 定位(下)ev(1).mp4 4 抖音推流逻...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/051f1ff87527327f4eaa9e259d4fc7d7.jpeg",
+      "publishTime": "2025-01-21 10:05:00",
+      "stats": {
+        "comments": 0,
+        "views": 92,
+        "likes": 81
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=9m3vRaRACD31ktYeLlBTMA&pwd=rt5v"
+    },
+    "22988": {
+      "type": "冒泡网",
+      "title": "淘宝全套运营现场课程，淘系电商运营必学",
+      "pageId": 22988,
+      "link": "https://vip.m987.cn/22988/.html",
+      "desc": "淘宝全套运营现场课程，淘系电商运营必学 课程背景 很多商家迷茫不知道如何下手打理店铺，上架之后就开始迷茫无从下手每天对着电脑发呆眼里没有活，除了刷单开车报活动没有其他行为支配能力! 课...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/b7f126447ce8e0248d01e60f42ac6148.jpeg",
+      "publishTime": "2025-01-21 10:09:06",
+      "stats": {
+        "comments": 0,
+        "views": 93,
+        "likes": 79
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=8duM9JkDzh46E_EnsiFyOQ&pwd=pue7"
+    },
+    "22990": {
+      "type": "冒泡网",
+      "title": "超级个体ip营第六期，未来是超级个体的时代  帮助个体打造小而美的商业模式",
+      "pageId": 22990,
+      "link": "https://vip.m987.cn/22990/.html",
+      "desc": "超级个体ip营第六期，未来是超级个体的时代  帮助个体打造小而美的商业模式 如果你是 教练·咨询师·顾问·讲师 如果你遇到以下问题: 1、有知识/经验/技能，不知道怎么把经验 变产品，怎么...",
+      "imgUrl": "https://vip.m987.cn/wp-content/uploads/replace/7af04326af513c6b63a2197b04674187.jpeg",
+      "publishTime": "2025-01-21 10:12:51",
+      "stats": {
+        "comments": 0,
+        "views": 115,
+        "likes": 80
+      },
+      "detailInfo": null,
+      "downloadLink": "https://pan.baidu.com/share/init?surl=GXMrOBWmkkrU3wx3VAVwtw&pwd=ayrj"
     }
   }
 }

@@ -99,6 +99,7 @@ class CrawlerService {
 
     try {
       const page = this.authService.page;
+      const allCourses = [];
       
       // 导航到首页
       console.log('正在访问首页...');
@@ -107,64 +108,102 @@ class CrawlerService {
         timeout: 30000
       });
 
-      // 等待课程列表加载完成
-      await page.waitForSelector('#zib_widget_ui_tab_post-2-1 posts');
+      // 定义所有tab的信息
+      const tabs = [
+        { id: '#zib_widget_ui_tab_post-2-1', name: '中创网' },
+        { id: '#zib_widget_ui_tab_post-2-2', name: '福源论坛' },
+        { id: '#zib_widget_ui_tab_post-2-3', name: '冒泡网' },
+        { id: '#zib_widget_ui_tab_post-2-4', name: '自学成才网' }
+      ];
 
-      // 提取课程列表数据
-      const courses = await page.evaluate(() => {
-        const results = [];
-        const posts = document.querySelectorAll('#zib_widget_ui_tab_post-2-1 posts');
+      // 添加延迟函数
+      const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-        posts.forEach(post => {
-          // 获取类型
-          const type = document.querySelector('.list-inline .active a')?.textContent.trim() || '';
+      // 遍历每个tab
+      for (const tab of tabs) {
+        console.log(`\n开始爬取 ${tab.name} 的内容...`);
+        
+        // 点击tab切换内容
+        if (tab.id !== '#zib_widget_ui_tab_post-2-1') { // 第一个tab默认已经激活
+          const tabSelector = `a[href="${tab.id}"]`;
+          await page.waitForSelector(tabSelector);
+          await page.click(tabSelector);
+          await delay(2000); // 等待内容加载
+        }
 
-          // 获取互动数据
-          const comments = parseInt(post.querySelector('.meta-comm a')?.textContent) || 0;
-          const views = parseInt(post.querySelector('.meta-view')?.textContent) || 0;
-          const likes = parseInt(post.querySelector('.meta-like')?.textContent) || 0;
+        // 点击两次"加载更多"以获取三页数据
+        for (let i = 0; i < 2; i++) {
+          try {
+            const loadMoreSelector = `${tab.id} .ajax-next a`;
+            await page.waitForSelector(loadMoreSelector, { timeout: 5000 });
+            await page.click(loadMoreSelector);
+            console.log(`已点击第 ${i + 1} 次加载更多`);
+            await delay(2000); // 等待新内容加载
+          } catch (error) {
+            console.log(`加载更多按钮点击失败: ${error.message}`);
+            break;
+          }
+        }
 
-          // 获取链接和标题
-          const titleElement = post.querySelector('.item-heading a');
-          const link = titleElement?.href || '';
-          const title = titleElement?.textContent.trim() || '';
+        // 等待所有文章加载完成
+        await page.waitForSelector(`${tab.id} posts`);
 
-          // 获取其他信息
-          const desc = post.querySelector('.item-excerpt')?.textContent.trim() || '';
-          const imgUrl = post.querySelector('.item-thumbnail img')?.src || '';
-          const publishTime = post.querySelector('.meta-author span[title]')?.getAttribute('title') || '';
+        // 提取当前tab下的所有文章数据
+        const tabCourses = await page.evaluate((tabId, tabName) => {
+          const results = [];
+          const posts = document.querySelectorAll(`${tabId} posts`);
 
-          // 从链接中提取 pageId
-          const pageIdMatch = link.match(/\/(\d+)/);
-          const pageId = pageIdMatch ? parseInt(pageIdMatch[1]) : null;
+          posts.forEach(post => {
+            // 获取互动数据
+            const comments = parseInt(post.querySelector('.meta-comm a')?.textContent) || 0;
+            const views = parseInt(post.querySelector('.meta-view')?.textContent) || 0;
+            const likes = parseInt(post.querySelector('.meta-like')?.textContent) || 0;
 
-          results.push({
-            type,
-            title,
-            pageId,
-            link,
-            desc,
-            imgUrl,
-            publishTime,
-            stats: {
-              comments,
-              views,
-              likes
-            },
-            detailInfo: null,    // 将在后面填充
-            downloadLink: null    // 将在后面填充
+            // 获取链接和标题
+            const titleElement = post.querySelector('.item-heading a');
+            const link = titleElement?.href || '';
+            const title = titleElement?.textContent.trim() || '';
+
+            // 获取其他信息
+            const desc = post.querySelector('.item-excerpt')?.textContent.trim() || '';
+            const imgUrl = post.querySelector('.item-thumbnail img')?.src || '';
+            const publishTime = post.querySelector('.meta-author span[title]')?.getAttribute('title') || '';
+
+            // 从链接中提取 pageId
+            const pageIdMatch = link.match(/\/(\d+)/);
+            const pageId = pageIdMatch ? parseInt(pageIdMatch[1]) : null;
+
+            results.push({
+              type: tabName,
+              title,
+              pageId,
+              link,
+              desc,
+              imgUrl,
+              publishTime,
+              stats: {
+                comments,
+                views,
+                likes
+              },
+              detailInfo: null,    // 将在后面填充
+              downloadLink: null    // 将在后面填充
+            });
           });
-        });
 
-        return results;
-      });
+          return results;
+        }, tab.id, tab.name);
 
-      console.log('爬取完成，共获取到 %d 个课程:', courses.length);
+        allCourses.push(...tabCourses);
+        console.log(`已获取 ${tab.name} 的 ${tabCourses.length} 条数据`);
+      }
+
+      console.log(`\n所有tab爬取完成，共获取到 ${allCourses.length} 个课程`);
 
       // 为每个课程获取详情和下载链接
-      for (let i = 0; i < courses.length; i++) {
-        const course = courses[i];
-        console.log(`\n正在获取第 ${i + 1}/${courses.length} 个课程的详细信息...`);
+      for (let i = 0; i < allCourses.length; i++) {
+        const course = allCourses[i];
+        console.log(`\n正在获取第 ${i + 1}/${allCourses.length} 个课程的详细信息...`);
         
         try {
           // 访问详情页
@@ -216,7 +255,7 @@ class CrawlerService {
         await new Promise(resolve => setTimeout(resolve, 2000));
       }
 
-      return courses;
+      return allCourses;
 
     } catch (error) {
       console.error('爬取课程列表失败:', error);
