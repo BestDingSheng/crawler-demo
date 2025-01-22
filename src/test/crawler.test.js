@@ -6,29 +6,22 @@ async function test() {
     try {
         // 初始化数据库
         await initDatabase();
-        
         const crawler = new CrawlerService();
-        
         // 初始化存储
         await storage.init();
-        
         // 初始化爬虫
         await crawler.init();
-        
         // 如果没有登录，则执行登录
         if (!crawler.isLoggedIn) {
             console.log('需要登录，开始登录...');
             await crawler.login('deson', '11223344');
         }
-        
         // 爬取课程列表（包含详情和下载链接）
         console.log('开始爬取课程列表...');
         const courses = await crawler.crawlCourseList();
-        
         // 保存课程数据
         console.log('\n开始保存课程数据...');
         const savedData = await storage.saveCourses(courses);
-        
         // 打印结果
         console.log('\n本次爬取统计:');
         console.log('- 本次爬取课程数:', courses.length);

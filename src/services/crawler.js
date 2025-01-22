@@ -134,9 +134,9 @@ class CrawlerService {
       // 定义所有tab的信息
       const tabs = [
         { id: '#zib_widget_ui_tab_post-2-1', name: '中创网' },
-        { id: '#zib_widget_ui_tab_post-2-2', name: '福源论坛' },
-        { id: '#zib_widget_ui_tab_post-2-3', name: '冒泡网' },
-        { id: '#zib_widget_ui_tab_post-2-4', name: '自学成才网' }
+        // { id: '#zib_widget_ui_tab_post-2-2', name: '福源论坛' },
+        // { id: '#zib_widget_ui_tab_post-2-3', name: '冒泡网' },
+        // { id: '#zib_widget_ui_tab_post-2-4', name: '自学成才网' }
       ];
 
       // 添加延迟函数
@@ -237,12 +237,36 @@ class CrawlerService {
 
           // 获取详情内容
           const detailInfo = await page.evaluate(() => {
-            const fontElement = document.querySelector('.wp-posts-content font');
-            return fontElement ? fontElement.outerHTML : null;
+            const fontElement = document.querySelector('.wp-posts-content');
+            if (!fontElement) return null;
+
+            // 在浏览器环境中完成 DOM 清理
+            // 1. 删除 img 标签
+            fontElement.querySelectorAll('img').forEach(img => img.remove());
+            // 2. 删除特定类名的元素
+            fontElement.querySelectorAll('.article-timeout, .text-center, .article-tags').forEach(el => el.remove());
+            // 3. 删除 style 标签
+            fontElement.querySelectorAll('style').forEach(style => style.remove());
+            // 4. 删除空标签
+            function removeEmptyElements(element) {
+              element.querySelectorAll('*').forEach(el => {
+                removeEmptyElements(el);
+                if (!el.innerHTML.trim()) {
+                  el.remove();
+                }
+              });
+              if (!element.innerHTML.trim()) {
+                element.remove();
+              }
+            }
+            removeEmptyElements(fontElement);
+
+            // 返回清理后的 HTML
+            return fontElement.outerHTML;
           });
 
           if (detailInfo) {
-            course.detailInfo = detailInfo;
+            course.detailInfo = detailInfo;  // 直接使用清理后的 HTML
           }
 
           // 获取下载链接
