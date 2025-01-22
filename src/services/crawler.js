@@ -134,9 +134,9 @@ class CrawlerService {
       // 定义所有tab的信息
       const tabs = [
         { id: '#zib_widget_ui_tab_post-2-1', name: '中创网' },
-        // { id: '#zib_widget_ui_tab_post-2-2', name: '福源论坛' },
-        // { id: '#zib_widget_ui_tab_post-2-3', name: '冒泡网' },
-        // { id: '#zib_widget_ui_tab_post-2-4', name: '自学成才网' }
+        { id: '#zib_widget_ui_tab_post-2-2', name: '福源论坛' },
+        { id: '#zib_widget_ui_tab_post-2-3', name: '冒泡网' },
+        { id: '#zib_widget_ui_tab_post-2-4', name: '自学成才网' }
       ];
 
       // 添加延迟函数

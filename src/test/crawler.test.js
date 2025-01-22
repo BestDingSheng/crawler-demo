@@ -3,10 +3,11 @@ const storage = require('../utils/storage');
 const initDatabase = require('../models/init');
 
 async function test() {
+    let crawler;  // 将变量声明移到函数作用域顶部
     try {
         // 初始化数据库
         await initDatabase();
-        const crawler = new CrawlerService();
+        crawler = new CrawlerService();  // 只是赋值，不再声明
         // 初始化存储
         await storage.init();
         // 初始化爬虫
@@ -44,7 +45,9 @@ async function test() {
         console.error('测试失败:', error);
     } finally {
         // 关闭浏览器
-        await crawler.close();
+        if (crawler) {  // 添加检查，确保 crawler 存在
+            await crawler.close();
+        }
     }
 }
 
